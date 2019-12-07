@@ -1,0 +1,30 @@
+{
+  "name": "@infoods/tagnames",
+  "version": "0.0.1",
+  "description": "Food Component Identifiers (Tagnames) by International Network of Food Data Systems (INFOODS).",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infoods/tagnames.git"
+  },
+  "keywords": [
+    "infoods",
+    "tagnames",
+    "food",
+    "component",
+    "identifier",
+    "international",
+    "network",
+    "data",
+    "systems"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/infoods/tagnames/issues"
+  },
+  "homepage": "https://github.com/infoods/tagnames#readme"
+}
