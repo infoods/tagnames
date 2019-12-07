@@ -1,0 +1,590 @@
+<ERGCAL>
+     ergocalciferol
+     Unit: mcg
+     Synonyms: vitamin D-2
+
+<ETHAM>
+     ethanolamines, total
+     Unit: g
+     Tables: SFK
+
+Saturated Fatty Acids
+<F4D0>
+     fatty acid 4:0
+     Unit: g
+     Synonyms: butyric acid; tetranoic acid;
+     butanoic acid
+     Tables: USDA 607, SFK, FRN, DAN, SWD
+
+<F5D0>
+     fatty acid 5:0
+     unit: g
+
+<F6D0>
+     fatty acid 6:0
+     Unit: g
+     Synonyms: caproic acid; hexanoic acid
+     Tables: USDA 608, SFK, PRC, FRN, DAN, SWD
+
+<F8D0>
+     fatty acid 8:0
+     Unit: g
+     Synonyms: caprylic acid; octanoic acid
+     Tables: USDA 609, SFK, PRC, FRN, DAN, SWD
+
+<F10D0>
+     fatty acid 10:0
+     Unit: g
+     Synonyms: capric acid; decanoic acid
+     Tables: USDA 610, SFK, PRC, FRN, DAN, SWD
+
+<F12D0>
+     fatty acid 12:0
+     Unit: g
+     Synonyms: lauric acid; dodecanoic acid
+     Tables: USDA 611, SFK, NE, PRC, FRN, DAN,
+     SWD
+ 
+<F13D0>
+     fatty acid 13:0
+     Unit: g
+     Synonyms: tridecanoic acid
+     Tables: USDA 696, FRN
+
+<F14D0>   fatty acid 14:0
+     Unit: g
+     Synonyms: myristic acid; tetradecanoic
+     acid
+     Tables: USDA 612, SFK, NE, PRC, FRN,
+     DAN, SWD
+
+<F15D0>   fatty acid 15:0
+     Unit: g
+     Synonyms: pentadecylic acid;
+     pentadecanoic acid
+     Tables: USDA 652, PRC, FRN, DAN
+
+<F16D0>   fatty acid 16:0
+     Unit: g
+     Synonyms: palmitic acid; hexadecanoic
+     acid
+     Tables: USDA 613, SFK, NE, EA, PRC,
+     FRN, DAN, SWD
+
+<F17D0>   fatty acid 17:0
+     Unit: g
+     Synonyms: margaric acid; heptadecanoic
+     acid
+     Tables: USDA 653, SFK, PRC, FRN, DAN
+
+<F18D0>   fatty acid 18:0
+     Unit: g
+     Synonyms: stearic acid; octadecanoic
+     acid
+     Tables: USDA 614, SFK, NE, EA, PRC,
+     FRN, DAN, SWD
+
+<F19D0> fatty acid 19:0
+     Unit: g
+     Synonym: nonadecanoic acid
+
+<F20D0>   fatty acid 20:0
+     Unit: g
+     Synonyms: arachidic acid; eicosanoic
+     acid
+     Tables: USDA 615, SFK, PRC, FRN, DAN,
+     SWD
+
+<F21D0> fatty acid 21:0
+     Unit: g
+
+<F22D0>   fatty acid 22:0
+     Unit: g
+     Synonyms: behenic acid; docosanoic
+     acid
+     Tables: USDA 624, SFK, PRC, FRN, DAN,
+     SWD
+
+<F23D0>
+     fatty acid 23:0
+     Unit: g
+     Synonyms: tricosanoic acid
+     Tables: FRN
+
+<F24D0>
+     fatty acid 24:0
+     Unit: g
+     Synonyms: lignoceric acid; tetracosanoic
+     acid
+     Tables: USDA 654, SFK, FRN
+
+Monounsaturated fatty acids
+  For mono- and poly-unsaturated fatty acids,
+the following naming conventions are used: FnDm
+indicates an unspecified bond position, and
+potentially a mixture.  FnDmNo indicates an
+omega-o bond position, potentially mixed cis
+and trans forms.  FnDmCNo and FnDmTNo indicate
+values for the specific cis and trans forms
+respectively.
+
+<F10D1>
+     fatty acid 10:1
+     Units: g
+     Tables: NZ
+
+<F12D1>
+     fatty acid 12:1
+     Unit: g
+     Synonyms: lauroleic acid
+     Tables: FRN
+
+<F14D1>
+     fatty acid 14:1
+     Unit: g
+     Synonyms: myristoleic acid; tetradecenoic
+     acid
+     Tables: USDA 625, PRC, FRN, DAN
+
+<F15D1>
+     fatty acid 15:1
+     Unit: g
+     Synonyms: pentadecenoic acid
+     Tables: FRN, DAN
+
+<F15D1N9> fatty acid 15:1 n-9
+     Unit: g
+
+<F16D1>   fatty acid 16:1
+     Unit: g
+     Synonyms: palmitoleic acid;
+     hexadecenoic acid
+     Tables: USDA 626, SFK, NE, PRC, FRN,
+     DAN, SWD
+
+<F16D1C> fatty acid cis 16:1
+     Unit: g 
+     Synonyms: 
+     Tables: USDA 673 
+
+<F16D1T> fatty acid trans 16:1
+     Unit: g 
+     Synonyms: 
+     Tables: USDA 662 
+
+<F17D1>   fatty acid 17:1
+     Unit: g
+     Synonyms: heptadecenoic acid
+     Tables: USDA 687, FRN, DAN
+
+<F18D1>   fatty acid 18:1
+     Unit: g
+     Synonyms: oleic acid; octadecenoic
+     acid
+     Tables: USDA 617, FRN, DAN, SWD
+
+<F18D1C> fatty acid cis 18:1
+     Unit: g 
+     Synonyms: 
+     Tables: USDA 674 
+
+<F18D1N7> fatty acid 18:1 n-7
+     Unit: g
+     Tables: NZ
+
+<F18D1N9>
+     fatty acid 18:1 n-9
+     Unit: g
+     Tables: NZ
+
+<F18D1CN9> fatty acid 18:1 cis n-9
+     Unit: g
+
+<F18D1T> fatty acid trans 18:1
+     Unit: g 
+     Synonyms: 
+     Tables: USDA 663 
+
+<F18D1TN9>     fatty acid trans 18:1 n-9
+     Unit: g
+     Synonyms: elaidic acid; octadecenoic
+acid
+     Tables: SFK, NE, EA, FRN
+
+<F19D1N7> fatty acid 19:1 n-7
+     Unit: g
+
+<F20D1>   fatty acid 20:1
+     Unit: g
+     Synonyms: gadoleic acid; eicosenoic
+     acid
+     Tables: USDA 628, NE, PRC, FRN, DAN,
+     SWD
+
+<F20D1N7> fatty acid 20:1 n-7
+     Unit: g
+
+
+<F20D1N9> fatty acid 20:1 n-9
+     Unit: g
+
+<F20D1N11> fatty acid 20:1 n-11
+     Unit: g
+
+<F22D1>   fatty acid 22:1
+     Unit: g
+     Synonyms: erucic acid; cetoleic acid;
+     docosenoic acid
+     Tables: USDA 630, NE, PRC, FRN, DAN,
+     SWD, NZ
+
+<F22D1N9> fatty acid 22:1 n-9
+     Unit: g
+
+<F22D1CN9>
+     fatty acid cis 22:1 n-9
+     Unit: g
+     Synonyms: erucic acid; docosenoic acid
+     Tables: SFK, FRN, SWD
+
+<F22D1CN11>
+     fatty acid cis 22:1 n-11
+      Unit: g
+      Synonyms: cetoleic acid, 11-docosenoic acid
+
+<F22D1TN9>
+     fatty acid trans 22:1 n-9
+     Unit: g
+     Synonyms: brassidic acid
+     Tables: FRN
+
+<F23D1>
+     fatty acid 23:1
+     Unit: g
+     Tables: NZ
+
+<F24D1>
+     fatty acid 24:1
+     Unit: g
+      Synonyms: selacholeic acid, nervonic acid,
+          tetracosenoic acid
+     Tables: FRN
+
+<F24D1C> fatty acid cis 24:1
+     Unit: g 
+     Synonyms: 
+     Tables: USDA 671 
+
+Polyunsaturated fatty acids
+  For naming conventions, see monounsaturated
+fatty acids, above.
+
+<F16D2N4>
+     fatty acid 16:2 n-4
+     Unit: g
+
+<F16D2N7>
+     fatty acid 16:2 n-7
+     Unit: g
+
+<F16D3N3>
+     fatty acid 16:3 n-3
+     Unit: g
+
+<F16D3N4>
+     fatty acid 16:3 n-4
+     Unit: g
+
+<F16D4N1>
+     fatty acid 16:4 n-1
+     Unit: g
+
+<F16D4N4>
+     fatty acid 16:4 n-4
+     Unit: g
+
+<F18D2>
+     fatty acid 18:2
+     Unit: g
+     Tables: USDA 618, NZ
+
+<F18D2CN3>
+     fatty acid 18:2cis n-3
+     Unit: g
+
+<F18D2N4>
+     fatty acid 18:2 n-4
+     Unit: g
+
+<F18D2N6>
+     fatty acid 18:2, n-6
+     Unit g
+
+<F18D2CN6>
+     fatty acid cis,cis 18:2 n-6
+     Unit: g
+     Synonyms: linoleic acid; octadecadienoic
+     acid
+     Tables: USDA 675, SFK, NE, EA, PRC, FRN,
+     DAN, SWD
+
+<F18D2TN6>
+     fatty acid 18:2trans n-6
+     Unit: g
+
+<F18D2N9>
+     fatty acid 18:2 n-9
+     Unit: g
+
+<F18D3>
+     fatty acid 18:3
+     Unit: g
+     Tables: USDA 619, NZ
+
+<F18D3N3> fatty acid 18:3 n-3
+     Unit: g
+     Synonyms: alpha-linolenic acid;
+     octadecatrienoic acid
+     Tables: SFK, NE, EA, PRC,
+     FRN, DAN, SWD
+
+<F18D3CN3> fatty acid cis, cis, cis 18:3 n-3
+     Unit: g 
+     Synonyms: 
+     Tables: USDA 851
+
+<F18D3N6> fatty acid 18:3 n-6
+     Unit: g
+     Synonyms: gamma-linolenic acid
+     Tables: FRN
+
+<F18D4>   fatty acid 18:4
+     Unit: g
+     Synonyms: parinaric acid; stearidonic
+     acid; octadecatetraenoic acid
+     Tables: USDA 627, NE, FRN
+
+<F18D4N3> fatty acid 18:4 n-3
+     Unit: g
+     Tables: FRN
+
+<F20D2>   fatty acid 20:2
+     Unit: g
+     Synonyms: eicosadienoic acid
+     Tables: PRC, FRN
+
+<F20D2N6> fatty acid 20:2 n-6
+     Unit: g
+
+<F20D2CN6> fatty acid cis, cis 20:2 n-6
+     Unit: g 
+     Synonyms: 
+     Tables: USDA 672 
+
+<F20D3>   fatty acid 20:3
+     Unit: g
+     Synonyms: eicosatrienoic acid
+     Tables: USDA 689, FRN, DAN
+
+<F20D3N3> fatty acid 20:3 n-3
+     Unit: g
+
+<F20D3N6> fatty acid 20:3 n-6
+     Unit: g
+     Synonyms: homogammalinolenic
+     Tables: USDA 853
+
+<F20D3N9> fatty acid 20:3 n-9
+     Unit: g
+
+<F20D4>   fatty acid 20:4
+     Unit: g
+     Synonyms: arachidonic acid
+     Tables: USDA 620, FRN
+
+<F20D4N3> fatty acid 20:4 n-3
+     Unit: g
+
+<F20D4N6> fatty acid 20:4 n-6
+     Unit: g
+     Synonyms: arachidonic acid;
+     eicosatetraenoic acid
+     Tables: USDA 855, SFK, NE, PRC, FRN,
+     DAN, SWD
+
+<F20D5>   fatty acid 20:5
+     Unit: g
+     Synonyms: eicosapentaenoic acid
+     Tables: FRN
+
+<F20D5N3>
+     fatty acid 20:5 n-3
+     Unit: g
+     Synonyms: eicosapentaenoic acid; EPA;
+     timnodonic acid
+     Tables: USDA 629, NE, FRN, DAN, SWD
+
+<F21D5N3> fatty acid 21:5 n-3
+     Unit: g
+
+<F22D2>
+     fatty acid 22:2
+     Unit: g
+     Synonyms: docosadienoic acid
+     Tables: FRN
+
+<F22D3>
+     fatty acid 22:3
+     Unit: g
+     Tables: NZ
+
+<F22D4>
+     fatty acid 22:4
+     Unit: g
+     Synonyms: docosatetraenoic acid
+     Tables: FRN
+
+<F22D4N3> fatty acid 22:4 n-3
+     Unit: g
+
+<F22D5>
+     fatty acid 22:5
+     Unit: g
+     Synonyms: docosapentaenoic acid
+     Tables: FRN
+
+<F22D5N3>
+     fatty acid 22:5 n-3
+     Unit: g
+     Synonyms: docosapentaenoic acid
+     Tables: USDA 631, NE, PRC, FRN, DAN, SWD
+
+<F22D5N6>
+     fatty acid 22:5 n-6
+     Unit: g
+     Tables: NZ
+
+<F22D6>
+     fatty acid 22:6
+     Unit: g
+     Synonyms: docosahexaenoic acid
+     Tables: FRN
+
+<F22D6N3> fatty acid 22:6 n-3
+     Unit: g
+     Synonyms: docosahexaenoic acid; DHA
+     Tables: USDA 621, NE, PRC, FRN, DAN,
+     SWD
+
+<F24D6>
+     fatty acid 24:6
+     Unit: g
+     Tables: NZ
+
+<FACID>   fatty acids, total
+     Unit: g
+      Comments: Two data items are required
+          for tagname <FACID>:  the total
+          quantity of fatty acids and
+          identification of the conversion
+          factor used to calculate this value
+          from the quantity of total fat.  If
+          the conversion factor was taken from
+          a table in one of the sources
+          identified by the keywords listed
+          below, the keyword should be used
+          during data interchange.  Otherwise,
+          the conversion factor can be
+          explicitly stated within a secondary
+          tagname.  It is also acceptable to
+          include both a keyword and the
+          specific conversion factor in the
+          data.
+      Keywords: The available keywords for
+          those tables that list the conversion
+          factors for calculating total fatty
+          acids from total fat are:
+     MW  McCance and Widdowson (?)
+     USDA  USDA Handbook No. 8 (?)
+
+      The secondary tagname for identifying
+          a specific fatty acid conversion
+          factor is:
+      <XFA>  conversion factor for
+          calculating total fatty acids from
+          total fat.
+
+<FADT>    fatty acids, total double trans
+      Unit: g
+      Comments: Some countries are planning
+          actions to limit these acids (not
+          single trans) from foods, e.g.,
+          chocolate.
+
+<FAESS>
+     fatty acids, total essential
+     Unit: g
+      Comments: This value is the sum of linoleic
+          acid, linolenic acid, and arachidonic
+          acid.
+     Tables: FRN
+
+<FAFRE>
+     fatty acids, total free
+     Unit: g
+     Tables: USDA 658
+
+<FAMS>
+     fatty acids, total monounsaturated
+     Unit: g
+     Tables: USDA 645, NE, FRN, DAN, SWD
+
+<FAPU>
+     fatty acids, total polyunsaturated
+     Unit: g
+     Tables: USDA 646, IND, NE, FRN, DAN, SWD
+
+<FAPUN3>
+     fatty acids, total n-3 polyunsaturated
+     Unit: g
+
+<FAPUN6>
+     fatty acids, total n-6 polyunsaturated
+     Unit: g
+
+<FASAT>
+     fatty acids, total saturated
+     Unit: g
+     Tables: USDA 606, SFK, NE, EA, FRN, DAN,
+     SWD
+
+<FAT>     fat, total
+     Unit: g
+     Synonyms: total lipid
+      Tables: USDA 204, SFK, MW, ETH, EGP, IND,
+          NE, EA, PRC, FRN, DAN, SWD
+
+<FATCE>   fat, total; derived by analysis using
+          continuous extraction
+     Unit: g
+      Comments: The Soxhlet method has often
+          been used to analyse for total fat
+          using continuous extraction.  This
+          method tends to underestimate the
+          total fat value of a food.
+
+<FATNLEA> total fat by NLEA definition (triglyceride equivalents
+          of fatty acids)
+     Unit: g
+
+<FATRN>   fatty acids, total trans
+     Unit: g
+     Tables: USDA 605
+
+<FATRNM> fatty acids, total trans-monoenoic
+     Unit: g
+     Tables: USDA 693
+
+<FATRNP> fatty acids, total trans-polyenoic
+     Unit: g
+     Tables: USDA 695

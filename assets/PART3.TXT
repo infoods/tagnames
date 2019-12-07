@@ -1,0 +1,678 @@
+<FD> fluoride
+     Unit: mcg
+     Synonyms: fluorine
+     Tables: USDA 313, SFK, EA, SWD
+
+<FE> iron, total
+     Unit: mg
+     Comments: Includes both haem and non-
+     haem iron.
+      Tables: USDA 303, SFK, MW, ETH, IND,
+          NE, EA, PRC, DAN, SWD
+
+<FERAC>   ferulic acid
+     Unit: mg
+     Tables: SFK
+
+<FIBAD>   fibre; determined by acid detergent
+          method
+     Unit: g
+     Comments: Includes cellulose, lignin,
+     and some hemicelluloses.
+
+<FIBADC>  fibre, acid detergent method, Clancy
+          modification.
+     Unit: g
+     Tables: NZ
+
+<FIBC>    fibre, crude
+     Unit: g
+     Comments: The crude fibre method of
+     fibre analysis is obsolete.
+     Tables: USDA 206, SFK, ETH, EGP
+
+<FIBHEX>  hexoses in dietary fibre
+     Unit: g
+     Tables: DAN
+
+<FIBINS>
+     fibre, water-insoluble
+     Unit: g
+      Comments: Sum of insoluble components from
+          the AOAC total dietary fibre method;
+          includes primarily lignin, cellulose, and
+          most of the hemicellulose.
+      Note: Values for <FIBINS> may also be
+          obtained by subtracting soluble fibre from
+          total dietary fibre, i.e., by subtracting
+          the value of <FIBSOL> from the value of
+          <FIBTG>.
+     Tables: SFK, MW
+
+<FIBND>
+     fibre; determined by neutral detergent
+     method
+     Unit: g
+     Comments: Includes lignin, cellulose, and
+     insoluble hemicellulose.
+     Tables: USDA 273
+
+<FIBPEN>
+     pentoses in dietary fibre
+     Unit: g
+     Tables: USDA 223, DAN
+
+<FIBSOL>
+     fibre, water-soluble
+     Unit: g
+      Comments: Sum of soluble components from
+          the AOAC total dietary fibre method;
+          includes primarily algal polysaccharides,
+          gums, pectins, and mucilages.
+     Tables: SFK
+
+<FIBTG>
+      fibre, total dietary; determined
+          gravimetrically by the AOAC total dietary
+          fibre method
+     Unit: g
+      Comments: Sum of the water-soluble
+          components and the water-insoluble
+          components of dietary fibre; can be
+          calculated by adding the values of
+          <FIBSOL> and <FIBINS>; includes all non-
+          starch polysaccharides and lignin.
+     Tables: SFK
+
+<FIBTS>fibre, total dietary; sum of non-
+               starch polysaccharide components and
+               lignin
+     Unit: g
+      Comments: Sum of the polysaccharide
+          components of dietary fibre measured
+          sequentially on the same sample (for
+          example, by using the Southgate
+          colorimetric procedure) plus lignin
+          measured gravimetrically.
+
+<FIBTSW>  fibre, total dietary; Wenlock
+          modification
+     Unit: g
+     Tables: NZ
+
+<FIB->    fibre; method of determination unknown
+	or variable
+     Unit: g
+      Note: Tagname <FIB-> is used to
+          identify fibre values which represent
+          unknown fibre components or which
+          were obtained by unknown methods or 
+          a mixture of methods. 
+
+<FOL>     folate, total
+     Unit: mcg
+     Synonyms: folacin; folic acid
+     Comments: Includes both conjugated and
+     free folate.
+     Tables: USDA 417, SFK, MW, ETH, IND,
+     EA, DAN, SWD
+
+<FOLAC> folic acid, synthetic folic acid
+     Unit: mcg 
+     Tables: USDA 431 
+
+<FOLFD> folate food, naturally occuring food folates
+     Unit: mcg 
+     Tables: USDA 432
+
+<FOLDFE> folate, dietary folate equivalents
+     Unit: mcg DFE
+     Comments: folate total = mcg food folate + (1.7 X mcg folic acid)
+     Tables: USDA 435
+
+<FOLFRE>  folate, free
+     Unit: mcg
+     Tables: USDA 419, MW, IND, DAN
+
+<FRUFB>   fructose in dietary fibre
+     Unit: mg
+
+<FRUS>    fructose
+     Unit: g
+     Comments: D-fructose only; includes
+     only the free monosaccharide.
+     Tables: USDA 212, SFK, DAN, SWD
+
+<FRUTN> 
+     fructan
+     Unit: g
+
+<FUCSTR28>
+     28-iso-fucosterol
+     Unit: mg
+
+<FUMAC>
+     fumaric acid
+     Unit: mg
+     Tables: USDA 237, SFK
+
+<GALAAC>
+     galacturonic acid
+     Unit: mg
+     Tables: USDA 238, SFK
+
+<GALFB>
+     galactose in dietary fibre
+     Unit: mg
+
+<GALLAC>
+     gallic acid
+     Unit: mg
+     Tables: USDA 239, SFK
+
+<GALS>
+     galactose
+     Unit: g
+     Comments: Includes only the free
+     monosaccharide.
+     Tables: SFK
+
+<GALTN>
+     galactan
+     Unit: g
+
+<GLN>     glutamine
+     Unit: mg
+     Comments: Includes only L-glutamine.
+     Tables: SFK
+
+<GLOB>
+     globulin
+     Unit: mg
+
+<GLU>     glutamic acid
+     Unit: mg
+     Synonym: glutamate
+     Comments: Includes only L-glutamic acid.
+     Tables: USDA 515, SFK, ETH, NE, EA, DAN,
+     SWD
+
+<GLUAKAC> alpha-keto-glutaric acid
+     Unit: mg
+     Tables: SFK
+
+<GLUCAC>  gluconic acid
+     Unit: mg
+     Tables: SFK
+
+<GLUCNB>  betaglucan
+     Unit: g
+
+<GLUFB>   glucose in dietary fibre
+     Unit: mg
+
+<GLUMN>   glucomannan
+     Unit: g
+
+<GLUS>    glucose
+     Unit: g
+     Comments: D-glucose only; includes
+     only the free monosaccharide.
+     Tables: USDA 211, SFK, DAN, SWD
+
+<GLUTN>   gluten
+     Unit: mg
+
+<GLY>     glycine
+     Unit: mg
+     Comments: Includes only L-glycine.
+     Tables: USDA 516, SFK, ETH, NE, EA,
+     DAN, SWD
+
+<GLYC>    glycogen
+     Unit: g
+     Tables: USDA 272, SFK
+
+<GLYCERA> glycerides, total; determined by
+          analysis
+     Unit: g
+
+<GLYCERC> glycerides, total; calculated from
+          fatty acid composition
+     Unit: g
+
+<GLYCER-> glycerides, total; method of
+          determination unknown or variable
+     Unit: g
+
+<GLYCLAC>
+     glycolic acid
+     Unit: mg
+     Tables: USDA 240, SFK
+
+<GLYCM>
+     glycogen; expressed in monosaccharide
+     equivalents
+     Unit: g
+
+<GLYCTEIN>
+    glycitein
+    Unit: mcg
+
+<GLYCTN>
+     glycitin
+     Unit: mcg
+
+<GLYCTNA>
+     acetyl-glycitin
+     Unit: mcg
+
+<GLYCTNM>
+     malonyl-glycitin
+     Unit: mcg
+
+<GLYLIP>
+     glycolipids, total
+     Unit: g
+     Tables: USDA 604
+
+<GLYRL>
+     glycerol
+     Unit: mg
+     Tables: SFK
+
+<GNSTEIN>
+     genistein
+     Unit: mcg
+
+<GNSTIN>
+     genistin
+     Unit: mcg
+
+<GNSTINA>  
+     acetyl-genistin
+     Unit: mcg
+
+<GNSTINM>
+     malonyl-genistin
+     Unit: mcg
+
+<GPCHOLN>
+	Glycerophosphocholine
+	Units: mg
+	Tables: 
+
+<GUMS>
+     gums
+     Unit: g
+
+<HAEM>
+     iron, haem
+     Unit: mg
+
+<HEMCEL>
+     hemicellulose
+     Unit: g
+     Comments: Includes hexose and pentose.
+     Tables: USDA 224, SFK
+
+<HEXSN>
+     hexosan
+     Unit: g
+     Tables: SFK
+
+<HG> mercury
+     Unit: mcg
+     Tables: USDA 370
+
+<HIS>     histidine
+     Unit: mg
+     Comments: Includes only L-histidine.
+     Tables: USDA 512, SFK, ETH, NE, EA, DAN,
+     SWD
+
+<HISTN>   histamine
+     Unit: mg
+     Tables: SFK
+
+<HYP>     hydroxyproline
+     Unit: mg
+     Comments: Includes only L-
+     hydroxyproline.
+     Tables: USDA 521, SFK
+
+<ID> iodide
+     Unit: mcg
+     Synonyms: iodine
+     Tables: USDA 314, SFK, EA, PRC, DAN,
+     SWD
+
+<ILE>     isoleucine
+     Unit: mg
+     Comments: Includes only L-isoleucine.
+     Tables: USDA 503, SFK, ETH, NE, EA,
+     DAN, SWD
+
+<INOTL>   inositol
+     Unit: mcg
+     Tables: USDA 422, SFK
+
+<INULN>   inulin
+     Unit: g
+
+<ISOCAC>  isocitric acid
+     Unit: mg
+     Tables: USDA 241, SFK
+
+<ISOFLVND>  total Isoflavonoids
+     Unit: mcg
+
+<K>  potassium
+      Unit: mg
+      Note: If the value is expressed in
+          millimoles, mmol<NA> must be
+          explicitly stated with the secondary
+          tagname <UNIT/>.
+     Tables: USDA 306, SFK, MW, IND, NE,
+     EA, PRC, DAN, SWD
+
+<LACAC>   lactic acid
+     Unit: mg
+     Tables: USDA 242, SFK
+
+<LACS>    lactose
+     Unit: g
+     Tables: USDA 213, SFK, DAN, SWD
+
+<LACSM>
+     lactose; expressed in monosaccharide
+     equivalents
+     Unit: g
+     Tables: MW
+
+<LEU>     leucine
+     Unit: mg
+     Comments: Includes only L-leucine.
+     Tables: USDA 504, SFK, ETH, NE, EA, DAN,
+     SWD
+
+<LI> lithium
+     Unit: mcg
+     Tables: USDA 368
+
+<LIGN>
+     lignin
+     Unit: g
+     Tables: SFK, DAN, SWD
+
+<LUTN> lutein
+     Unit: mcg
+
+<LYCPN> lycopene
+     Unit: mcg
+
+<LYS>     lysine
+     Unit: mg
+     Comments: Includes only L-lysine.
+     Tables: USDA 505, SFK, ETH, NE, EA, DAN,
+     SWD
+
+<MALAC>
+     malic acid
+     Unit: mg
+     Tables: USDA 243, SFK
+
+<MALS>
+     maltose
+     Unit: g
+     Tables: USDA 214, SFK, DAN, SWD
+
+<MALSM>
+     maltose; expressed in monosaccharide
+     equivalents
+     Unit: g
+
+<MALTRS>
+     maltotriose
+     Unit: g
+
+<MALTRSM>
+     maltotriose; expressed in monosaccharide
+     equivalents
+     Unit: g
+
+<MANFB>   mannose in dietary fibre
+     Unit: mg
+
+<MANN>    mannan
+     Unit: g
+
+<MANTL>   mannitol
+     Unit: mg
+     Tables: USDA 260, SFK
+
+<MET>     methionine
+     Unit: mg
+     Comments: Includes only L-methionine.
+     Tables: USDA 506, SFK, ETH, NE, EA,
+     DAN, SWD
+
+<METH>    methyl alcohol
+     Unit: mg
+     Synonyms: methanol
+     Tables: SFK
+
+<MG> magnesium
+     Unit: mg
+     Tables: USDA 304, SFK, MW, IND, NE,
+     EA, PRC, DAN, SWD
+
+<MGLY>    monoglycerides, total
+     Unit: g
+     Tables: USDA 655
+
+<MN> manganese
+     Unit: mcg
+     Tables: USDA 315, SFK, EA, PRC, DAN,
+     SWD
+
+<MNSAC>   monosaccharides, total
+     Unit: g
+     Comments: Includes only the free
+     monosaccharides.
+
+<MO> molybdenum
+     Unit: mcg
+     Tables: USDA 316, SFK, EA, PRC, DAN,
+     SWD
+
+<MUCIL>   mucilages
+     Unit: g
+
+<NA> sodium
+     Unit: mg
+      Note: If the value is expressed in
+          millimoles, mmol must be explicitly stated
+          with the secondary tagname <UNIT/>.
+     Tables: USDA 307, SFK, MW, IND, NE, EA,
+PRC, DAN, SWD
+
+<NACL>
+     salt
+     Unit: mg
+     Synonyms: NACL
+     Tables: USDA 375, SFK
+
+<NAM>     nitrogen, amino
+     Unit: g
+
+<NHAEM>
+     iron, non-haem
+     Unit: mg
+
+<NI> nickel
+     Unit: mcg
+     Tables: USDA 371, SFK, PRC
+
+<NIA>     niacin, preformed
+     Unit: mg
+      Synonyms: nicotinic acid; nicotinamide 
+          (These terms are not true synonyms but are
+          often used in food tables to refer to
+          niacin.)
+     Comments: Nicotinic acid and nicotinamide.
+      Tables: USDA 406, SFK, MW, ETH, IND, NE,
+          EA, PRC, DAN, SWD
+
+<NIAAVL>
+     niacin, available
+     Unit: mg
+     Comments: total niacin minus bound niacin
+
+<NIAEQ>
+     niacin equivalents, total
+     Unit: mg
+     Comments: Preformed niacin plus niacin
+     equivalents from tryptophan.
+     Tables: USDA 409, DAN, SWD
+
+<NIATRP>  niacin equivalents from tryptophan
+     Unit: mg
+     Comments: 1/60 x tryptophan.
+     Tables: USDA 407 & 408, MW, DAN
+
+<NITRA>   nitrates
+     Unit: mg
+     Tables: USDA 264, SFK
+
+<NITRI>   nitrites
+     Unit: mg
+     Tables: USDA 265, SFK
+
+<NITRN>  nitrosamine, total
+     Unit: mg
+     Tables: USDA 266
+
+<NITRNN>  nitrosamine, non-volatile
+      Unit: mg
+
+<NITRNV>  nitrosamine, volatile
+      Unit: mg
+      Comments: Subject of forthcoming
+          regulations.
+
+<NNP>     nitrogen, non-protein
+     Unit: mg
+
+<NPRO>    nitrogen, protein
+     Unit: g
+
+<NT> nitrogen, total
+     Unit: g
+     Comments: Determined by Kjeldahl
+     method.
+     Tables: USDA 202, MW, ETH, EGP, IND,
+     NE, EA
+
+<OA> organic acids, total
+     Unit: g
+
+<OLSAC>   oligosaccharides, total available
+     Unit: g
+
+<OLSACM>oligosaccharides, total available;
+               expressed in monosaccharide
+               equivalents
+     Unit: g
+
+<OXACAC>  oxaloacetic acid
+     Unit: mg
+     Tables: USDA 244, SFK
+
+<OXALAC>
+     oxalic acid
+     Unit: mg
+     Tables: USDA 245, SFK, IND
+
+<P>  phosphorus
+     Unit: mg
+      Tables: USDA 305, SFK, MW, ETH, EGP, IND,
+          NE, EA, PRC, DAN, SWD
+
+<PANTAC>
+     pantothenic acid
+     Unit: mg
+      Synonyms: D-pantothenate; vitamin B-5
+          (obsolete term, may still appear in some
+          tables)
+     Tables: USDA 410, SFK, MW, EA, DAN, SWD
+
+<PARHBAC>
+     parahydrobenzoic acid
+     Unit: mg
+     Tables: SFK
+
+<PB> lead
+     Unit: mcg
+     Tables: USDA 367
+
+<PCHOLN>
+	Phosphocholine
+	Units: mg
+	Tables: 
+
+<PECT>
+     pectin
+     Unit: g
+      Comments: Reflects AOAC or equivalent
+          procedure.  Polymers of galacturonic acid
+          unspecified.
+      Note: Additional tagnames will be added,
+          when needed by food composition tables and
+          data bases, to reflect the very large
+          number of polysaccharides present in foods
+          and, specifically, to reflect different
+          degrees of methoxylation in pectic
+          substances.
+     Tables: USDA 220, SFK, SWD
+
+<PENSN>
+     pentosan
+     Unit: g
+     Tables: USDA 222, SFK
+
+
+<PHE>     phenylalanine
+     Unit: mg
+     Comments: Includes only L-
+     phenylalanine.
+     Tables: USDA 508, SFK, ETH, NE, EA,
+     DAN, SWD
+
+<PHOLIP>  phospholipids, total
+     Unit: g
+     Tables: USDA 603
+
+<PHYSTR>  phytosterols, total
+     Unit: mg
+     Synonyms: total plant sterols
+      Comments: Includes avenasterol,
+          brassicasterol, campesterol,
+          sitosterol, spinasterol, and
+          stigmasterol.
+     Tables: USDA 636
+
+<PHYTAC>  phytic acid
+     Unit: mg
+     Synonyms: phytin P
+     Tables: USDA 246, SFK, MW, IND
+
+<PIPN>    piperine
+     Unit: g
+     Tables: USDA 259
+
+<PRO>     proline
+     Unit: mg
+     Comments: Includes only L-proline.
+     Tables: USDA 517, SFK, ETH, NE, EA,
+     DAN, SWD

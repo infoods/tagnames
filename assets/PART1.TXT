@@ -1,0 +1,763 @@
+<AAA>     amino acids, total aromatic
+      Unit:  mg
+      Comments: The total value is the sum of
+          phenylalanine plus tyrosine only, in spite
+          of the fact that tryptophan is also
+          chemically aromatic.
+      Tables: USDA 523, EA, SWD
+
+<AAE8>
+      amino acids, total essential; includes the
+          eight basic essential amino acids: 
+          isoleucine, leucine, lysine, methionine,
+          phenylalanine, threonine, tryptophan, and
+          valine
+      Unit: mg
+      Comments: These eight amino acids are
+          included in all definitions of the
+          essential amino acids for man.
+
+<AAE10A>
+      amino acids, total essential; includes the
+          eight basic essential amino acids plus
+          arginine and histidine
+      Unit: mg
+      Comments: Arginine and histidine are
+          included in this definition of essential
+          amino acids because they are essential for
+          infants.
+
+<AAE10B>amino acids, total essential; includes
+               the eight basic essential amino acids
+               plus cystine and tyrosine
+      Unit: mg
+      Comments: Cystine and tyrosine are
+          included in this definition of
+          essential amino acids because of
+          their sparing effects on the
+          requirements for methionine and
+          phenylalanine respectively.
+     Tables: MW
+
+<AAE12>amino acids, total essential; includes
+               the eight basic essential amino acids
+               plus arginine, histidine, cystine,
+               and tyrosine
+      Unit: mg
+      Comments: Arginine and histidine are
+          included in this definition of
+          essential amino acids because they
+          are essential for infants.  Cystine
+          and tyrosine are included because of
+          their sparing effects on the
+          requirements for methionine and
+          phenylalanine respectively.
+      Tables: ETH, NE, EA
+
+<AAE->amino acids, total essential; unknown or variable
+               which amino acids are included in the
+               total
+      Unit: mg
+
+<AAS> amino acids, total sulphur-containing
+      Unit: mg
+      Comments: The total value is the sum of
+          cystine plus methionine.
+      Tables: USDA 522, NE, EA, SWD
+
+<AAT->
+      amino acids, total, precise definition not
+          specified
+      Unit: mg
+      Tables: SFK, ETH, NE, EA
+      Comments: When total amino acids are
+          reported, they are usually the sum of
+          whatever amino acids were analysed for
+          that particular food.  Consequently, this
+          term is not precisely defined.  Additional
+          tagnames will be introduced when precise
+          definitions exist.  See page ? for
+          additional discussion.
+
+<ACEAC>
+      acetic acid
+      Unit: mg
+      Tables: USDA 230, SFK
+
+<AG>  silver
+      Unit: mcg
+      Tables: USDA 378
+
+<AGAR>
+      agar-agar
+      Synonyms: agar
+      Unit: g
+
+<AL>  aluminium
+      Unit: mcg
+      Synonyms: aluminum
+      Tables: USDA 348, SFK
+
+<ALA> alanine
+      Unit: mg
+      Comments: Includes only L-alanine.
+      Tables: USDA 513, SFK, ETH, NE, EA, DAN,
+          SWD
+
+<ALBU>
+      albumin
+      Unit: mg
+
+<ALC> alcohol
+      Unit: g
+      Synonyms: ethanol; ethyl alcohol
+      Tables: USDA 221, MW, DAN
+
+<ALGL>albumin and globulin
+      Unit: mg
+      Tables: SFK
+
+<ALGNT>alginates
+      Unit: g
+
+<AMMON>ammonia
+      Unit: mg
+      Tables: USDA 519
+
+<AMYP>amylopectin
+      Unit: g
+      Tables: USDA 219
+
+<AMYPM>amylopectin; expressed in
+               monosaccharide equivalents
+      Unit: g
+
+<AMYS>amylose
+      Unit: g
+
+<AMYSM>amylose; expressed in monosaccharide
+               equivalents
+      Unit: g
+
+<ARAFB>arabinose in dietary fibre
+      Unit: mg
+
+<ARAN>arabinan
+      Unit: g
+
+<ARAS>arabinose
+      Unit: g
+      Comments: L-arabinose only; includes
+          only the free monosaccharide.
+      Tables: SFK
+
+<ARG> arginine
+      Unit: mg
+      Comments: Includes only L-arginine.
+      Tables: USDA 511, SFK, ETH, NE, EA,
+          DAN, SWD
+
+<AS>  arsenic
+      Unit: mcg
+      Tables: USDA 350
+
+<ASCL>
+      L-ascorbic acid
+      Unit: mg
+      Tables: USDA 402, SWD
+
+<ASCDL>
+     L-dehydroascorbic acid
+      Unit: mg
+
+<ASH> ash
+      Unit: g
+      Synonyms: minerals
+      Tables: USDA 207, SKF, ETH, EGP, IND, NE,
+          EA, PRC, DAN, SWD
+
+<ASN> asparagine
+      Unit: mg
+      Comments: Includes only L-asparagine.
+      Tables: USDA 525, SFK
+
+<ASP> aspartic acid
+      Unit: mg
+      Synonym: aspartate
+      Comments: Includes only L-aspartic acid.
+      Tables: USDA 514, SFK, ETH, NE, EA, DAN,
+          SWD
+
+<AU>  gold
+      Unit: mcg
+      Tables: USDA 363
+
+<AVED5>
+     delta 5-avenasterol
+     Unit: mg
+     Synonyms: delta 5-avenastenol
+     Tables: USDA 649, SFK, FRN
+
+<AVED7>
+     delta 7-avenasterol
+     Unit: mg
+     Synonyms: avenasterol; delta 7-avenastenol
+     Tables: USDA 648, SFK, FRN
+
+<B>  boron
+     Unit: mcg
+     Tables: USDA 354, SFK, PRC
+
+<BA> barium
+     Unit: mcg
+     Tables: USDA 351
+
+<BENAC>   benzoic acid
+     Unit: mg
+     Tables: USDA 232, SFK
+
+<BETN>
+	Betaine
+	Units: mg
+	Tables: USDA 454
+
+<BIOT>    biotin
+     Unit: mcg
+     Synonyms: vitamin H
+     Tables: USDA 416, SFK, MW, DAN, SWD
+
+<BRASTR>  brassicasterol
+     Unit: mg
+     Tables: USDA 640, SFK, FRN
+
+<BRD>     bromide
+     Unit: mcg
+     Table: NZ
+
+<CA> calcium
+     Unit: mg
+      Tables: USDA 301, SFK, MW, ETH, EGP,
+          IND, NE, EA, PRC, DAN, SWD
+
+<CAFFN>   caffeine
+     Unit: mg
+     Tables: USDA 262, SFK
+
+
+<CAMD5>   delta 5-campesterol
+     Unit: mg
+     Synonyms: campesterol; delta 5-
+     campestenol
+     Tables: USDA 639, SFK, FRN
+
+<CAMD7>   delta 7-campesterol
+     Unit: mg
+     Synonyms: delta 7-campestenol
+     Tables: FRN
+
+<CARGN>   carageenan
+     Unit: g
+
+<CAROT>   carotene, total
+     Unit: mcg
+     Synonyms: vitamin A precursors
+     Comments: All-trans carotene only.
+     Tables: SFK, MW, PRC
+
+<CARTA>
+     alpha-carotene
+     Unit: mcg
+     Comments: All-trans alpha-carotene only.
+     Tables: USDA 322
+
+<CARTB>
+     beta-carotene
+     Unit: mcg
+     Comments: All-trans beta-carotene only.
+     Tables: USDA 321, DAN
+
+<CARTBEQ>
+     beta-carotene equivalents
+     Unit: mcg
+     Synonyms: provitamin A carotenoids
+      Comments: This value is the sum of the
+          beta-carotene plus � the quantity of the
+          other carotenoids with vitamin A activity.
+     Tables: USDA 320, NE, EA
+
+<CARTG>
+     gamma-carotene
+     Unit: mcg
+     Comments: All-trans gamma-carotene only.
+     Tables: USDA 332
+
+<CASN>
+     casein
+     Unit: mg
+     Tables: SFK
+
+<CD> cadmium
+     Unit: mcg
+     Tables: USDA 356
+
+<CELLU>
+     cellulose
+     Unit: g
+     Tables: USDA 225, SFK, DAN, SWD
+<CELLO>
+     cellobiose
+     unit: g
+
+<CHLNP> 
+     phosphatidyl choline
+     Unit: g
+     Synonyms: lecithin
+     Tables: USDA 662, SFK
+
+<CHLRAC>
+     chlorogenic acid
+     Unit: mg
+     Tables: USDA 234, SFK
+
+<CHOAVL>  carbohydrate, available
+     Unit: g
+      Comments: This value includes the free
+          sugars plus dextrins, starch, and
+          glycogen.
+     Tables: SFK
+
+<CHOAVLM> carbohydrate, available; expressed in
+          monosaccharide equivalents
+     Unit: g
+      Comments: This value includes the free
+          sugars plus dextrins, starch, and
+          glycogen.
+     Tables: MW
+
+<CHOCAL>  cholecalciferol
+     Unit: mcg
+     Synonyms: vitamin D-3
+     Comments: Naturally occurring form.
+     Tables: DAN
+
+<CHOCDF>  carbohydrate, total; calculated by
+          difference
+     Unit: g
+     Comments: This value is calculated
+     using the following formula:
+          100 g minus total grams of water,
+          protein, fat, and ash
+      Note: This is not the preferred method
+          of calculating total carbohydrate. 
+          Calculation by summation is
+          preferred.
+     Tables: USDA 205, ETH, EGP, IND, NE,
+     EA, DAN, SWD
+
+<CHOCSM>  carbohydrate, total; calculated by
+          summation
+     Unit: g
+      Comments: This value is the sum of the
+          sugars, starches, oligosaccharides,
+          and carbohydrate dietary fibre.
+     Tables: USDA 254
+
+<CHOLC>   cholesterol; determined by chemical
+          method (classical)
+     Unit: mg
+
+<CHOLE>
+     cholesterol; determined by enzymatic or
+     chromatographic method
+     Unit: mg
+     Tables: MW
+
+<CHOLM>
+     24-methylcholest-7-erol
+     Unit: mg
+     Tables: USDA 651, SFK, FRN
+
+<CHOLME>
+     24-methylene cholesterol
+     unit: mg 
+
+<CHOLN>
+     choline, total
+     Unit: mg
+     Tables: USDA 421, SFK, IND
+
+<CHOLNF> 
+	choline, free
+	Units: mg		
+	Tables: USDA 450
+
+<CHOLNGPC>
+	Choline from glycerophosphocholine
+	Units: mg
+	Tables: USDA 453
+
+<CHOLNPC>
+	Choline from phosphocholine
+	Units: mg
+	Tables: USDA 451
+
+<CHOLNPTC>  
+	choline from phosphatidylcholine  
+ 	Units: mg
+	Tables: USDA 452
+
+<CHOLNSM>
+	Choline from sphingomyelin
+	Units: mg
+	Tables: USDA 455
+
+<CHOL->
+     cholesterol; method of determination
+     unknown or variable
+     Unit: mg
+
+<CHO->
+     carbohydrate, total; method of
+     determination unknown or variable
+     Unit: g
+
+<CITAC>
+     citric acid
+     Unit: mg
+     Tables: USDA 236, SFK
+
+<CLD>     chloride
+      Unit: mg
+      Note: If the value is expressed in
+          millimoles, mmol must be explicitly stated
+          with the secondary tagname <UNIT/>.
+     Synonyms: chlorine
+     Tables: USDA 302, SFK, MW, IND, PRC
+
+<CO> cobalt
+     Unit: mcg
+     Tables: USDA 311, SFK, IND, EA, PRC
+
+<COLG>
+     collagen
+     Unit: mg
+
+<CONPRO>  connective tissue protein
+     Unit: mg
+     Tables: SFK
+      Comments: This term is not precisely
+          defined in the table in which it
+          appears.  The tagname should be
+          construed as ``connective tissue
+          protein as the term is used by Souci-
+          Fachmann-Kraut''.
+
+<CR> chromium
+     Unit: mcg
+     Tables: USDA 310, SFK, DAN, SWD
+
+<CREATN>  creatinine
+     Unit: mg
+     Tables: SFK
+
+<CRYPX>   cryptoxanthin
+     Unit: mcg
+     Tables: USDA 334
+
+<CU> copper
+     Unit: mg
+     Tables: USDA 312, SFK, MW, EA, PRC,
+     DAN, SWD
+
+<CYAN>    Cyanide
+     Units: mcg
+     Table: NZ
+
+<CYS>     cystine
+     Unit: mg
+      Comments: Cysteine is often the
+          natural form, which is converted to
+          cystine during chromatography;
+          includes only the L-amino acid.
+     Tables: USDA 507, SFK, ETH, NE, EA,
+     DAN, SWD
+
+<DAIDZN>  daidzin
+     Unit: mcg
+
+<DAIDZNA> acetyl-daidzin
+     Unit: mcg
+
+<DAIDZNM> malonyl-daidzin
+     Unit: mcg
+
+<DDZEIN>  daidzein
+     Unit: mcg
+
+
+<DEXTN>   dextrins
+     Unit: g
+     Tables: SFK
+
+<DEXTNM>  dextrins; expressed in monosaccharide
+          equivalents
+     Unit: g
+     Tables: MW
+
+<DGLY>
+     diglycerides, total
+     Unit: g
+     Tables: USDA 656
+
+<DISAC>
+     disaccharides, total
+     Unit: g
+
+<DISACM>
+     disaccharides, total; expressed in
+     monosaccharide equivalents
+     Unit: g
+
+<DM> 
+     dry matter
+     unit: g
+
+<DOPN>
+     dopamine
+     Unit: mg
+     Tables: SFK
+
+<ENERA>
+     energy, gross; determined by direct
+     analysis using bomb calorimetry
+      Unit: kJ.  The value for <ENERA> may be
+          expressed in kilocalories instead of the
+          default unit of kilojoules. However, if
+          expressed in kilocalories, kcal must be
+          explicitly stated with the secondary
+          tagname <UNIT/>.
+      Note: It would be confusing and would imply
+          additional information that does not exist
+          if two <ENERA> values, i.e., one expressed
+          in kilocalories and the other expressed in
+          kilojoules, were included for a single
+          food item when one value has simply been
+          calculated from the other using the
+          conversion equation: 1 kcal = 4.184 kJ. 
+          Consequently, one or the other should be
+          used, but not both.
+     Synonyms: kilojoules; kilocalories;
+     Calories; food energy
+
+<ENERC>energy, total metabolizable;
+               calculated from the energy-producing
+               food components
+      Unit: kJ.  The value for <ENERC> may
+          be expressed in kilocalories instead
+          of the default unit of kilojoules. 
+          However, if expressed in
+          kilocalories, kcal must be explicitly
+          stated with the secondary tagname
+          <UNIT/>.
+      Note: It would be confusing and would
+          imply additional information that
+          does not exist if two <ENERC> values,
+          i.e., one expressed in kilocalories
+          and the other expressed in
+          kilojoules, were included for a
+          single food item when one value has
+          simply been calculated from the other
+          using the conversion equation: 1 kcal
+          = 4.184 kJ.  Consequently, one or the
+          other should be used, but not both.
+     Synonyms: kilojoules; kilocalories;
+     Calories; food energy
+      Comments: In addition to a value for
+          the quantity of total metabolizable
+          energy, <ENERC> includes a
+          description or listing of the
+          conversion factors used to calculate
+          this energy value from the proximate
+          quantities.  The conversion factors
+          may be described by a keyword, or the
+          conversion factors may be listed
+          using secondary tagnames within
+          <ENERC>.  (More than one <ENERC>
+          tagname may exist for a single food
+          item if the values were calculated
+          from the proximate components using
+          different conversion factors.)
+      Keywords: Following are the available
+          keywords to describe the conversion
+          factors that were used for calculating
+          total metabolizable energy:
+      KJA  kilojoule conversion factors using
+          available carbohydrate
+          kilojoules = (17 x g total protein) + (16
+          x g available carbohydrate expressed as
+          monosaccharides) + (37 x g total fat) +
+          (29 x g alcohol)
+      Tables: MW
+      STDA  standard conversion factors
+          originally derived by Atwater using
+          available carbohydrate
+          kilocalories = (4 x g total protein) +
+          (3.75 x g available carbohydrate expressed
+          as monosaccharides) + (9 x g total fat) +
+          (7 x g alcohol)
+      Tables: MW
+      STDT  standard conversion factors
+          originally derived by Atwater using total
+          carbohydrate 
+          kilocalories = (4 x g total protein) + (4
+          x g total carbohydrate) + (9 x g total
+          fat) + (7 x g alcohol)
+      Tables: EGP, IND
+      CDXC  CODEX conversion factors for
+          nutritional labelling of total
+          kilocalories
+          kilocalories = (4 x g total protein) + (4
+          x g total carbohydrate) + (9 x g total
+          fat) + (7 x g alcohol) + (3 x g organic acid)
+      CDXJ  CODEX conversion factors for
+          nutritional labelling of total kilojoules
+          kilojoules = (17 x g total protein) + (17
+          x g total carbohydrate) + (37 x g total
+          fat) + (29 x g alcohol) + (13 x g organic
+          acid)
+      FDS  conversion factors based on type of
+          food as reported in World Health
+          Organization Technical Report Series No.
+          522 (?) and the United States Department
+          of Agriculture Handbooks No. 8 (?) and No.
+          74 (?).
+      Tables: USDA 208 and 268, ETH, NE, EA
+      Note: The following two codes, RUBA
+          and RUBT, represent conversion
+          factors that were used primarily for
+          calculating the energy data in early
+          editions of McCance and Widdowson. 
+          It is believed that the Rubner
+          conversion factors are no longer in
+          active use.
+      RUBA  Rubner conversion factors using
+          available carbohydrate
+          kilocalories = (4.1 x g total
+          protein) + (3.75 x g available
+          carbohydrate expressed as
+          monosaccharides) + (9.3 x g total
+          fat) + (7 x g alcohol)
+      RUBT  Rubner conversion factors using
+          total carbohydrate
+          kilocalories = (4.1 x g total
+          protein) + (4.1 x g total
+          carbohydrate) + (9.3 x g total fat) +
+          (7 x g alcohol)
+
+      If none of the above keywords apply,
+          the actual conversion factors used to
+          calculate the total metabolizable
+          energy should be listed using the
+          following secondary tagnames:
+      <XP>  conversion factor for
+          calculating energy from protein
+      <XCT>  conversion factor for
+          calculating energy from total
+          carbohydrate
+      <XCA>  conversion factor for
+          calculating energy from available
+          carbohydrate
+      <XF>  conversion factor for
+          calculating energy from fat
+      <XA>  conversion factor for
+          calculating energy from alcohol
+      <XO>  conversion factor for
+          calculating energy from organic acid
+      Note: If these secondary tagnames are
+          used, conversion factors for <XP> and
+          <XF> are required; a conversion
+          factor for either <XCT> or <XCA> is
+          required; and conversion factors for
+          <XA> and <XO> are optional.
+
+      <ENERC> may not be used without either one
+          of the keywords specified above or a set
+          of specific conversion factors (or both). 
+          If the conversion system and factors are
+          unknown, <ENER-> should be used.
+      Examples: The 76 kcal/100 g energy value
+          for whole cow's milk in the Ethiopian food
+          table was calculated from proximate values
+          using conversion factors from the USDA
+          Agriculture Handbook No. 8.  Therefore,
+          the energy value would be listed using the
+          <ENERC> tagname and the USDA keyword, with
+          the kilocalorie unit stated with the
+          secondary tagname <UNIT/> to replace the
+          default unit of kilojoules:
+               <ENERC> 76 USDA <UNIT/> kcal </UNIT/>
+               </ENERC>
+
+          The 272 kJ/100 g energy value for fresh,
+          whole cow's milk in the McCance and
+          Widdowson food table was calculated with
+         the kilojoule conversion factors that use
+          available carbohydrate.  Therefore, the
+          energy value would be listed using the
+          <ENERC> tagname and the KJA keyword:
+               <ENERC> 272 KJA </ENERC>
+
+          If an energy value expressed in
+          kilocalories were calculated for whole
+          cow's milk using conversion factors for
+          protein, fat, and total carbohydrate, and
+          these conversion factors did not conform
+          to any of the factors described by the
+          available keywords, the energy value would
+          be listed using the <ENERC> tagname and
+          the <XP>, <XF> and <XCT> secondary
+          tagnames.  The kilocalorie unit would be
+          stated with the secondary tagname <UNIT/>
+          to replace the default unit of kilojoules:
+               <ENERC> 76.42 <XP> 4.3 <XF> 8.8 <XCT> 3.9
+               <UNIT/> kcal </UNIT/> </ENERC>
+      Note: In these examples, </UNIT/> and
+          </ENERC> are end-tags required in
+          interchange format to indicate the end of
+          the unit and energy information.  See the
+          INFOODS Data Interchange Handbook for
+          details on interchange format.
+
+<ENER->   energy; method of determination
+          unknown or variable
+      Unit: kJ.  The value for <ENER-> may
+          be expressed in kilocalories instead
+          of the default unit of kilojoules.
+          However, if expressed in
+          kilocalories, kcal must be explicitly
+          stated with the secondary tagname
+          <UNIT/>.
+      Note: It would be confusing and would
+          imply additional information that
+          does not exist if two <ENER-> values,
+          i.e., one expressed in kilocalories
+          and the other expressed in
+          kilojoules, were included for a
+          single food item when one value has
+          simply been calculated from the other
+          using the conversion equation: 1 kcal
+          = 4.184 kJ.  Consequently, one or the
+          other should be used, but not both.
+     Synonyms: kilojoules; kilocalories;
+     Calories; food energy
+      Comments: The <ENER-> tagname should
+          be used if it is not known whether
+          the energy value represents gross
+          energy or total metabolizable energy. 
+          It should also be used if it is known
+          that the energy value was calculated
+          from the proximate components but the
+          conversion factors used are unknown. 
+          (It is meaningless to have <ENER-> in
+          combination with either <ENERA> or
+          <ENERC> for a given food item.)

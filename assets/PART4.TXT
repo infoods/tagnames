@@ -1,0 +1,886 @@
+<PROA>    protein, total; determined by direct
+          analysis
+     Unit: g
+
+<PROANI> protein from animal sources
+     Unit: g
+
+<PROCNA>
+     protein, total; calculated from amino
+     nitrogen
+     Unit: g
+      Comments: Two pieces of data are associated
+          with the tagname <PROCNA>.  The first is
+          the quantity of total protein and the
+          second is the conversion factor used to
+          calculate total protein from amino
+          nitrogen.
+      Note: The total protein found in food
+          tables is rarely calculated from amino
+          nitrogen.  <PROCNT> is the appropriate
+          tagname for total protein in most cases.
+
+<PROCNP>
+     protein, total; calculated from protein
+     nitrogen
+     Unit: g
+      Comments: Two pieces of data are associated
+          with the tagname <PROCNP>.  The first is
+          the quantity of total protein and the
+          second is the conversion factor used to
+          calculate total protein from protein
+          nitrogen.
+      Note: The total protein found in food
+          tables is rarely calculated from protein
+          nitrogen. <PROCNT> is the appropriate
+          tagname for total protein in most cases.
+
+<PROCNT>
+     protein, total; calculated from total
+     nitrogen
+     Unit: g
+      Comments: Three pieces of data are
+          associated with the tagname <PROCNT>.  The
+          first is the quantity of total protein;
+          the second is a keyword which identifies
+          the source of the conversion factor used
+          to calculate the total protein from total
+          nitrogen; and the third is the actual
+          conversion factor used.  If possible, all
+          three pieces of data should be included
+          with <PROCNT>.  However, it is acceptable
+          to include only the keyword or the
+          conversion factor (rather than both) with
+          the total protein value if one or the
+          other is unknown.  If the conversion
+          factor used was generated from a source
+          other than one of those identified by the
+          available keywords, the conversion factor
+          should be listed without any keyword
+          information.
+      Keywords: Following are the available
+          keywords that can be used as the
+          second value for the <PROCNT>
+          tagname:
+     JONES  conversion factor originally
+     derived by Jones (?)
+     Tables: EGP, NE, EA
+      FAO  conversion factor from a table in
+          the FAO Nutritional Studies No. 24
+          (?), reprinted in the World Health
+          Organization Technical Report Series
+          No. 522 (?)
+     Tables: MW, DAN
+      USDA  conversion factor from a table
+          in the United States Department of
+          Agriculture Handbook No. 8 (?)
+     Tables: USDA 203
+      STD  standard conversion factor of
+          6.25, not specific for the type of
+          food.  (If this keyword is used, the
+          6.25 conversion factor should not be
+          listed with the secondary tagname
+          <XN>.)
+     Tables: SFK, IND, PRC
+
+      The following secondary tagname may be
+          used to identify the specific
+          conversion factor used when a keyword
+          other than STD is present, or instead
+          of a keyword (see above).
+      <XN>  conversion factor for
+          calculating total protein from total
+          nitrogen
+      Examples: The 3.2 g/100 g of protein
+          in cow's milk which is listed in the
+          Nutritive Value of Indian Foods was
+          calculated from total nitrogen using
+          the 6.25 conversion factor. 
+          Therefore, the protein value would be
+          listed using the <PROCNT> tagname and
+          the STD keyword:
+               <PROCNT> 3.2 STD </PROCNT>
+
+          The 3.3 g/100 g of protein in cow's milk
+          which is listed in McCance and Widdowson
+          was calculated from total nitrogen using a
+          6.38 conversion factor.  This factor was
+          obtained from the FAO publication. 
+          Therefore, the protein value would be
+          listed using the <PROCNT> tagname, the FAO
+          keyword, and the <XN> secondary tagname:
+               <PROCNT> 3.3 FAO <XN> 6.38 </PROCNT>
+
+          As a hypothetical example, if a value of
+          0.3 g/100 g of protein in watermelon seeds
+          were calculated from total nitrogen using
+          the conversion factor 5.30, and this value
+          had not been taken from one of the tables
+          identified by the list of keywords, the
+          protein value would be listed using the
+          <PROCNT> tagname in the following manner:
+               <PROCNT> 0.3 <XN> 5.30 </PROCNT>
+      Note: In these examples, </PROCNT> is an
+          end-tag required in interchange format to
+          indicate the end of the information about
+          protein calculated from total nitrogen. 
+          See the INFOODS Data Interchange Handbook
+          for details on interchange format.
+
+<PRO->
+     protein, total; method of determination
+     unknown or variable
+     Unit: g
+      Comments: The <PRO-> tagname should be used
+          for a total protein value when it is not
+          known whether the value was the result of
+          a direct analysis or whether it was
+          calculated from total nitrogen, protein
+          nitrogen, or amino nitrogen.  The <PRO->
+          tagname should also be used if it is known
+          that the total protein value was
+          calculated from one of the nitrogen
+          components, but the conversion factor used
+          in the calculation is unknown. 
+
+<PROPAC>
+     propionic acid
+     Unit: mg
+     Tables: SFK
+
+<PROPLA> protein from plant sources
+     Unit: g
+
+<PSACALG> polysaccharides, algal
+     Unit: g
+     Comments: Includes carageenan, agar,
+     and alginates.
+
+<PSACNC>  polysaccharides, non-cellulosic
+     Unit: g
+      Comments: Includes hemicellulose,
+          pectin, gums, algal polysaccharides,
+          and mucilages.
+     Tables: SWD
+
+<PSACNCI> polysaccharides, non-cellulosic,
+          water-insoluble
+     Unit: g
+     Tables: SWD
+
+<PSACNCS> polysaccharides, non-cellulosic,
+          water-soluble
+     Unit: g
+     Tables: SWD
+
+<PSACNS>  polysaccharides, non-starch
+     Unit: g
+     Comments: Includes non-cellulosic
+     polysaccharides and cellulose.
+
+<PSACNSI> polysaccharides, non-starch, water-
+          insoluble
+     Unit: g
+
+<PSACNSS> polysaccharides, non-starch, water-
+          soluble
+     Unit: g
+
+<PURAC>   polyuronic acids
+     Unit: mg
+     Tables: SFK, DAN
+
+<PURN>    purines
+     Unit: mg
+     Tables: SFK
+
+<PYRUAC>  pyruvic acid
+     Unit: mg
+     Tables: USDA 247, SFK
+
+<PYRXL>
+     pyridoxal
+     Unit: mg
+     Comments: Vitamin B-6 aldehyde form.
+     Tables: USDA 412
+
+<PYRXM>
+     pyridoxamine
+     Unit: mg
+     Comments: Vitamin B-6 amine form.
+     Tables: USDA 413
+
+<PYRXN>
+     pyridoxine
+     Unit: mg
+     Comments: Vitamin B-6 alcohol form.
+     Tables: USDA 411, EA
+
+<QUINAC>
+     quinic acid
+     Unit: mg
+     Tables: USDA 248, SFK
+
+<RAFS>
+     raffinose
+     Unit: g
+     Comments: Not available for humans.
+     Tables: SFK
+
+<RAFSM> Raffinose, expressed in monosaccharide equivalents
+     Unit: g
+
+<RB> Rubidium
+     Unit: mg
+
+<RETAL>
+     retinal
+     Unit: mcg
+
+<RETALD>
+     retinaldehyde
+     Unit: mcg
+
+<RETOL>
+     retinol
+     Unit: mcg
+     Synonyms: preformed vitamin A
+     Comments: All-trans retinol only.
+     Tables: USDA 319, MW, NE, EA, DAN, SWD
+
+<RETOL13>
+     13-cis retinol
+     Unit: mcg
+
+<RHAFB>   rhamnose in dietary fibre
+     Unit: mg
+
+<RHAS>    rhamnose
+     Unit: g
+     Comments: Includes only the free
+     sugar.
+
+<RIBF>    riboflavin
+     Unit: mg
+     Synonyms: Vitamin B-2; riboflavine.
+      Tables: USDA 405, SFK, MW, ETH, IND,
+          NE, EA, PRC, DAN, SWD
+
+<RIBS>    ribose
+     Unit: g
+     Comments: D-ribose only; includes only
+     the free monosaccharide.
+
+<S>  sulphur
+     Unit: mg
+     Tables: USDA 308, MW, IND
+
+<SALAC>   salicylic acid
+     Unit: mg
+     Tables: USDA 249
+
+<SB> Antimony
+     Units: mcg
+     Tables: NZ
+
+<SE> selenium, total
+     Unit: mcg
+     Tables: USDA 317, SFK, EA, PRC, DAN,
+     SWD
+
+<SEIO>    selenium, inorganic
+     Unit: mcg
+
+<SEO>     selenium, organic
+     Unit: mcg
+
+<SER>     serine
+     Unit: mg
+     Comments: Includes only L-serine.
+     Tables: USDA 518, SFK, ETH, NE, EA,
+     DAN, SWD
+
+<SEROTN>
+     serotonin
+     Unit: mg
+     Tables: SFK
+
+<SHIKAC>
+     shikimic acid
+     Unit: mg
+     Tables: SFK
+
+<SI> silicon
+     Unit: mcg
+     Tables: USDA 378, SFK, PRC
+
+<SITSTR>
+     sitosterol
+     Unit: mg
+     Comments: Beta-sitosterol only.
+     Tables: USDA 641, SFK
+
+<SN> tin
+     Unit: mcg
+     Tables: USDA 385, SFK
+
+<SOLO> Other solids
+      Unit: g
+
+<SORTL> 
+     sorbitol
+     Unit: mg
+     Tables: USDA 261, SFK
+
+<SPISTR>
+     spinasterol
+     Unit: mg
+     Comments: Alpha-spinasterol only.
+     Tables: USDA 650, FRN
+
+<SR> strontium
+     Unit: mcg
+     Tables: USDA 380
+
+<STARCH>
+     starch, total
+     Unit: g
+      Comments: The sum of all polysaccharides
+          yielding glucose after hydrolysis with
+          suitable enzymes; includes amylose,
+          amylopectin, glycogen, and dextrins.
+     Tables: USDA 209, SFK, DAN, SWD
+
+<STARCHM> starch, total; expressed in
+          monosaccharide equivalents
+     Unit: g
+      Comments: The sum of all
+          polysaccharides yielding glucose
+          after hydrolysis with suitable
+          enzymes; includes amylose,
+          amylopectin, glycogen, and dextrins.
+     Tables: MW
+
+<STARES>  starch, resistant
+     Unit: g
+     Synonyms: retrograded starch
+
+<STAS>    stachyose
+     Unit: g
+     Comments: Not available for humans.
+     Tables: SFK
+
+<STERFRE> sterols, free
+     Unit: mg
+     Tables: USDA 660, SFK
+
+<STERT>   sterols, total
+     Unit: mg
+      Comments: Non-specific colorimetric
+          method or sum of cholesterol and
+          phytosterols.
+     Tables: USDA 634, SFK
+
+<STID7>   delta 7-stigmasterol
+     Unit: mg
+      Comments: Values reported as
+          ``stigmasterol'' in food tables are
+          usually a measure of the delta 7 form
+          only.
+     Tables: USDA 638, SFK
+
+<SUCAC>   succinic acid
+     Unit: mg
+     Tables: USDA 250, SFK
+
+<SUCS>    sucrose
+     Unit: g
+     Tables: USDA 210, SFK, DAN, SWD
+
+<SUCSM>   sucrose; expressed in monosaccharide
+          equivalents
+     Unit: g
+
+<SUGAR>
+     sugars, total
+     Unit: g
+     Comments: Sum of free monosaccharides and
+     disaccharides.
+     Tables: USDA 269, SFK, DAN, SWD
+
+<SUGARM>
+     sugars, total; expressed in monosaccharide
+     equivalents
+     Unit: g
+      Comments: Sum of free monosaccharides and
+          disaccharides expressed in monosaccharide
+          equivalents.
+     Tables: MW
+
+<SUGIN>
+     invert sugar
+     Unit: g
+     Comments: Obsolete.
+     Tables: SFK
+
+<SUGNRD>
+     sugars, non-reducing
+     Unit: g
+     Comments: Obsolete.
+     Tables: USDA 270, SFK
+
+<SUGRD>
+     sugars, reducing
+     Unit: g
+     Comments: Obsolete.
+     Tables: USDA 274, SFK
+
+<TAN> tannins
+     Unit: mg
+
+<TARAC>
+     tartaric acid
+     Unit: mg
+     Tables: USDA 251, SFK
+
+<TAU>  taurine
+     Unit: mg
+
+<TGLY>
+     triglycerides, total
+     Unit: g
+     Tables: USDA 657
+
+<THEBRN>
+     theobromine
+     Unit: mg
+     Tables: USDA 263, SFK
+
+<THIA>    thiamin
+     Unit: mg
+     Synonyms: vitamin B-1; aneurin;
+     thiamine
+      Tables: USDA 404, SFK, MW, ETH, IND,
+          NE, EA, PRC, DAN, SWD
+
+<THR>     threonine
+     Unit: mg
+     Comments: Includes only L-threonine.
+     Tables: USDA 502, SFK, ETH, NE, EA,
+     DAN, SWD
+
+<TOCPHA>  alpha-tocopherol
+     Unit: mg
+     Tables: USDA 323, SFK, DAN, SWD
+
+<TOCPHB>  beta-tocopherol
+     Unit: mg
+     Tables: USDA 341, SFK
+
+<TOCPHD>  delta-tocopherol
+     Unit: mg
+     Tables: USDA 343, SFK
+
+<TOCPHG>  gamma-tocopherol
+     Unit: mg
+     Tables: USDA 342, SFK
+
+<TOCPHT> Total tocopheral
+     Unit: mcg
+     Tables: USDA (nutrient number?)
+
+<TOCTRA>  alpha-tocotrienol
+     Unit: mg
+     Tables: USDA 344, SFK, DAN
+
+<TOCTRB>  beta-tocotrienol
+     Unit: mg
+     Tables: USDA 345, SFK
+
+<TOCTRD>  delta-tocotrienol
+     Unit: mg
+     Tables: USDA 347
+
+<TOCTRG>  gamma-tocotrienol
+     Unit: mg
+     Tables: USDA 346, SFK
+
+<TRP>     tryptophan
+     Unit: mg
+     Comments: Includes only L-tryptophan.
+     Tables: USDA 501, SFK, ETH, NE, EA, DAN,
+     SWD
+
+<TRYPN>
+     tryptamine
+     Unit: mg
+     Tables: SFK
+
+<TYR>     tyrosine
+     Unit: mg
+     Comments: Includes only L-tyrosine.
+     Tables: USDA 509, SFK, ETH, NE, EA, DAN,
+     SWD
+
+<UNSAP>
+     unsaponifiable matter
+     Unit: g
+     Tables: USDA 643, EA
+
+<V>  vanadium
+     Unit: mcg
+     Tables: USDA 389, SFK
+
+<VAL>     valine
+     Unit: mg
+     Comments: Includes only L-valine.
+     Tables: USDA 510, SFK, ETH, NE, EA, DAN,
+     SWD
+
+<VERS>
+     verbascose
+     Unit: g
+
+<VITA>vitamin A; calculated by summation of
+               the vitamin A activities of retinol
+               and the active carotenoids
+      Unit: mcg.  The value for <VITA> may
+          be expressed in international units
+          instead of the default unit of
+          micrograms.  International units are
+          not preferred; however, if they are
+          used, IU must be explicitly stated
+          with the secondary tagname <UNIT/>.
+      Note: It would be confusing and would
+          imply additional information that
+          does not exist if two <VITA> values,
+          i.e., one expressed in mcg and the
+          other expressed in IU, were included
+          for a single food item when one value
+          has simply been calculated from the
+          other using the following conversion
+          equation:  1 retinol equivalent =
+          3.33 IU vitamin A activity from
+          retinol = 10 IU vitamin A activity
+          from beta-carotene.  Consequently,
+          one or the other should be used, but
+          not both.
+     Synonyms: retinol equivalents
+      Comments: Total vitamin A activity =
+          mcg retinol + 1/6 mcg beta-carotene +
+          1/12 mcg other provitamin A
+          carotenoids.
+     Tables: USDA 392 and 318, ETH, IND,
+     DAN
+
+<VITAA>   vitamin A; determined by bioassay
+     Unit: IU
+
+<VITA->
+     vitamin A; method of determination unknown
+      Unit: mcg.  The value for <VITA-> may be
+          expressed in international units instead
+          of the default unit of micrograms. 
+          International units are not preferred;
+          however, if they are used, IU must be
+          explicitly stated with the secondary
+          tagname <UNIT/>.
+       Comments: The <VITA-> tagname should be
+          used if it is not known whether the
+          vitamin A value was determined by bioassay
+          or by calculation.  
+
+<VITAACT>
+     vitamin A acetate
+     Unit: mcg
+     Tables: USDA 325
+
+<VITAPAL>
+     vitamin A palmitate
+     Unit: mcg
+     Tables: USDA 326
+
+<VITB6A>
+     vitamin B-6, total; determined by analysis
+     Unit: mg
+     Tables: USDA 415, MW 
+
+<VITB6C>
+     vitamin B-6, total; calculated by summation
+     Unit: mg
+     Comments: Pyridoxal plus pyridoxamine plus
+     pyridoxine.
+     Tables: USDA 414, SFK, MW, DAN
+
+<VITB6->
+     vitamin B-6, total; method of
+     determination unknown variable
+     Unit: mg
+      Comments: The <VITB6-> tagname should
+          be used if it is not known whether
+          the vitamin B-6 value was determined
+          by analysis or by calculation. 
+
+<VITB12>
+     vitamin B-12
+     Unit: mcg
+     Synonyms: cobalamin
+     Comments: Includes all the active forms of
+     vitamin B-12 in food.
+     Tables: USDA 418, SFK, MW, ETH, IND, EA,
+     PRC, DAN, SWD
+
+<VITC>
+     vitamin C
+     Unit: mg
+      Synonyms: ascorbic acid; ascorbate  (Note
+          that these terms are not true synonyms but
+          are often found in food tables to refer to
+          vitamin C.)
+     Comments: L-ascorbic acid plus L-
+     dehydroascorbic acid.
+     Tables: USDA 401, SFK, MW, ETH, IND, NE,
+     EA, PRC, DAN
+
+<VITD>    vitamin D; calculated by summation of
+          ergocalciferol and cholecalciferol
+      Unit: mcg.  The value for <VITD> may
+          be expressed in international units
+          instead of the default unit of
+          micrograms.  International units are
+          not preferred; however, if they are
+          used, IU must be explicitly stated
+          with the secondary tagname <UNIT/>.
+      Note: It would be confusing and would
+          imply additional information that
+          does not exist if two <VITD> values,
+          i.e., one expressed in mcg and the
+          other expressed in IU, were included
+          for a single food item when one value
+          has simply been calculated from the
+          other using the conversion equation:
+          1 mcg vitamin D = 40 IU. 
+          Consequently, one or the other should
+          be used, but not both.
+     Synonyms: calciferol
+     Comments: Ergocalciferol plus
+     cholecalciferol.
+     Tables: USDA 324, MW
+
+<VITDA>   vitamin D; determined by bioassay
+     Unit: IU
+     Synonyms: calciferol
+     Tables: MW
+
+<VITD->
+     vitamin D; method of determination unknown
+          or variable
+      Unit: mcg.  The value for <VITD-> may be
+          expressed in international units instead
+          of the default unit of micrograms. 
+          International units are not preferred;
+          however, if they are used, IU must be
+          explicitly stated with the secondary
+          tagname <UNIT/>.
+      Note: It would be confusing and would imply
+          additional information that does not exist
+          if two <VITD-> values, i.e., one expressed
+          in mcg and the other expressed in IU, were
+          included for a single food item when one
+          value has simply been calculated from the
+          other using the conversion equation: 1 mcg
+          vitamin D = 40 IU.  Consequently, one or
+          the other should be used, but not both.
+      Comments: The <VITD-> tagname should be
+          used if it is not known whether the
+          vitamin D value was determined by bioassay
+          or by calculation.  
+
+<VITE>
+      vitamin E; calculated by summation of the
+          vitamin E activities of the active
+          tocopherols and tocotrienols; expressed as
+          alpha-tocopherol equivalents
+      Unit: mg.  The value for <VITE> may be
+          expressed in international units instead
+          of the default unit of milligrams. 
+          International units are not preferred;
+          however, if they are used, IU must be
+          explicitly stated with the secondary
+          tagname <UNIT/>.
+      Note: It would be confusing and would imply
+          additional information that does not exist
+          if two <VITE> values, i.e., one expressed
+          in mg and the other expressed in IU, were
+          included for a single food item when one
+          value has simply been calculated from the
+          other using the conversion equation: 1 mg
+          alpha-tocopherol equivalents = 1.49 IU. 
+          Consequently, one or the other should be
+          used, but not both.
+      Comments: In addition to a value for the
+          quantity of vitamin E expressed as alpha-
+          tocopherol equivalents, <VITE> includes a
+          description or listing of the conversion
+          factors used to calculate this
+          vitamin E value from the active
+          tocopherols and tocotrienols.  The
+          conversion factors may be described
+          by a keyword or may be listed using
+          secondary tagnames within <VITE>. 
+          (More than one <VITE> tagname may
+          exist for a single food item if the
+          values were calculated from the
+          active tocopherols and tocotrienols
+          using different conversion factors.)
+      Keywords: The available keywords for
+          describing the conversion factors
+          used for calculating vitamin E in
+          alpha-tocopherol equivalents are
+          listed below:
+      USDA  United States Department of
+          Agriculture conversion factors as
+          reported by McLaughlin & Weihrauch
+          (?)
+               alpha-tocopherol = 1.00
+               beta-tocopherol = 0.40
+               gamma-tocopherol = 0.10
+               delta-tocopherol = 0.01
+               alpha-tocotrienol = 0.30
+               beta-tocotrienol = 0.05
+               gamma-tocotrienol = 0.01
+     Tables: USDA 340
+      MW  conversion factors cited by
+          McCance and Widdowson (?), pages 13
+          and 14.  These values are not used in
+          the vitamin E values in that table.
+               alpha-tocopherol = 1.00
+               beta-tocopherol = 0.30
+               gamma-tocopherol = 0.15
+               alpha-tocotrienol = 0.30
+     Tables: MW
+      RDA  conversion factors reported in
+          the ninth edition of the Recommended
+          Dietary Allowances for the United
+          States (?)
+               alpha-tocopherol = 1.00
+               beta-tocopherol = 0.50
+               gamma-tocopherol = 0.10
+               alpha-tocotrienol = 0.30
+
+      If none of the above keywords apply, the
+          actual conversion factors used to
+          calculate vitamin E should be listed using
+          the following secondary tagnames:
+          <XATP> alpha-tocopherol conversion factor
+          <XBTP> beta-tocopherol conversion factor
+          <XGTP> gamma-tocopherol conversion factor
+          <XDTP> delta-tocopherol conversion factor
+          <XATT> alpha-tocotrienol conversion factor
+          <XBTT> beta-tocotrienol conversion factor
+          <XGTT> gamma-tocotrienol conversion factor
+      Examples: The 0.10 mg/100 g vitamin E value
+          for fresh, whole cow's milk in the McCance
+          and Widdowson food table represents alpha-
+          tocopherol only.  Consequently, the value
+          0.10 would be shown with the <TOCPHA>
+          tagname, not the <VITE> tagname and the
+          associated keyword:
+               <TOCPHA> 0.10 </TOCPHA>
+
+          If a vitamin E value of 0.12, expressed in
+          alpha-tocopherol equivalents, were
+          calculated for whole cow's milk from the
+          alpha-tocopherol, beta-tocopherol, gamma-
+          tocopherol, and alpha-tocotrienol values,
+          and the conversion factors used did not
+          conform to any of the factors described by
+          the available keywords, the vitamin E
+          value would be listed using the <VITE>
+          tagname and the <XBTP>, <XGTP>, and <XATT>
+          secondary tagnames:
+               <VITE> 0.12 <XBTP> 0.4 <XGTP> 0.1 <XATT>
+               0.25 </VITE>
+      Note: In these examples, </VITE> and
+          </TOCPHA> are end-tags required in
+          interchange format to indicate the end of
+          the vitamin E information.  See the
+          INFOODS Data Interchange Handbook for
+          details on interchange format.
+
+<VITEA>
+     vitamin E; determined by bioassay
+     Unit: IU
+     Comments: Rarely used, not in major tables.
+
+<VITE->vitamin E, method of determination
+               unknown or variable; expressed as alpha-
+               tocopherol equivalents.
+      Unit: mg.  The value for <VITE-> may
+          be expressed in international units
+          instead of the default unit of
+          milligrams.  International units are
+          not preferred; however, if they are
+          used, IU must be explicitly stated
+          with the secondary tagname <UNIT/>.
+      Comments: The <VITE-> tagname should
+          be used if it is not known whether
+          the vitamin E value was determined by
+          bioassay or by calculation.  It
+          should also be used if it is known
+          that the vitamin E value was
+          determined by calculation but the
+          conversion factors used in the
+          calculation are not known.  
+
+<VITK>    vitamin K
+     Unit: mcg
+     Comments: Vitamin K-1 plus vitamin K-
+     2.
+     Tables: SFK, DAN, SWD
+
+<WATER>   water
+     Unit: g
+     Synonyms: moisture
+      Tables: USDA 255, SFK, MW, ETH, EGP,
+          IND, NE, EA, PRC, DAN, SWD
+
+<WAX>     wax, total
+     Unit: mg
+     Synonyms: wax esters
+     Tables: USDA 661
+
+<WHEY>
+     whey protein
+     Unit: mg
+     Tables: SFK
+
+<XYLFB>
+     xylose in dietary fibre
+     Unit: mg
+
+<XYLN>
+     xylan
+     Unit: g
+
+<XYLS>
+     xylose
+     Unit: g
+     Comments: D-xylose only; includes only the
+     free monosaccharide.
+     Tables: SFK
+
+<XYLTL>
+     xylitol
+     Unit: mg
+     Tables: SF
+
+<ZEA>  
+     zeaxanthin
+     Unit: mcg
+     Synonyms: 
+     Tables: USDA
+
+<ZN> zinc
+     Unit: mg
+     Tables: USDA 309, MW, EA, PRC, DAN, SWD
