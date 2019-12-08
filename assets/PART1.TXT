@@ -347,7 +347,7 @@
      using the following formula:
           100 g minus total grams of water,
           protein, fat, and ash
-      Note: This is not the preferred method
+          Note# This is not the preferred method
           of calculating total carbohydrate. 
           Calculation by summation is
           preferred.
@@ -427,8 +427,8 @@
      Tables: USDA 236, SFK
 
 <CLD>     chloride
-      Unit: mg
-      Note: If the value is expressed in
+      Unit: mg\n
+          Note# If the value is expressed in
           millimoles, mmol must be explicitly stated
           with the secondary tagname <UNIT/>.
      Synonyms: chlorine
@@ -535,8 +535,8 @@
           default unit of kilojoules. However, if
           expressed in kilocalories, kcal must be
           explicitly stated with the secondary
-          tagname <UNIT/>.
-      Note: It would be confusing and would imply
+          tagname <UNIT/>.\n
+          Note# It would be confusing and would imply
           additional information that does not exist
           if two <ENERA> values, i.e., one expressed
           in kilocalories and the other expressed in
@@ -558,8 +558,8 @@
           However, if expressed in
           kilocalories, kcal must be explicitly
           stated with the secondary tagname
-          <UNIT/>.
-      Note: It would be confusing and would
+          <UNIT/>.\n
+          Note# It would be confusing and would
           imply additional information that
           does not exist if two <ENERC> values,
           i.e., one expressed in kilocalories
@@ -587,17 +587,17 @@
           item if the values were calculated
           from the proximate components using
           different conversion factors.)
+      Tables: MW, EGP, IND, USDA 208 and 268, ETH, NE, EA
       Keywords: Following are the available
           keywords to describe the conversion
           factors that were used for calculating
-          total metabolizable energy:
+          total metabolizable energy:\n
       KJA  kilojoule conversion factors using
-          available carbohydrate
+          available carbohydrate\n
           kilojoules = (17 x g total protein) + (16
           x g available carbohydrate expressed as
           monosaccharides) + (37 x g total fat) +
           (29 x g alcohol)
-      Tables: MW
       STDA  standard conversion factors
           originally derived by Atwater using
           available carbohydrate
@@ -605,50 +605,47 @@
           (3.75 x g available carbohydrate expressed
           as monosaccharides) + (9 x g total fat) +
           (7 x g alcohol)
-      Tables: MW
       STDT  standard conversion factors
           originally derived by Atwater using total
-          carbohydrate 
+          carbohydrate\n
           kilocalories = (4 x g total protein) + (4
           x g total carbohydrate) + (9 x g total
           fat) + (7 x g alcohol)
-      Tables: EGP, IND
       CDXC  CODEX conversion factors for
           nutritional labelling of total
-          kilocalories
+          kilocalories\n
           kilocalories = (4 x g total protein) + (4
           x g total carbohydrate) + (9 x g total
-          fat) + (7 x g alcohol) + (3 x g organic acid)
+          fat) + (7 x g alcohol) + (3 x g organic acid)\n
       CDXJ  CODEX conversion factors for
-          nutritional labelling of total kilojoules
+          nutritional labelling of total kilojoules\n
           kilojoules = (17 x g total protein) + (17
           x g total carbohydrate) + (37 x g total
           fat) + (29 x g alcohol) + (13 x g organic
-          acid)
+          acid)\n
       FDS  conversion factors based on type of
           food as reported in World Health
           Organization Technical Report Series No.
           522 (?) and the United States Department
           of Agriculture Handbooks No. 8 (?) and No.
-          74 (?).
-      Tables: USDA 208 and 268, ETH, NE, EA
-      Note: The following two codes, RUBA
+          74 (?).\n
+          Note# The following two codes, RUBA
           and RUBT, represent conversion
           factors that were used primarily for
           calculating the energy data in early
           editions of McCance and Widdowson. 
           It is believed that the Rubner
           conversion factors are no longer in
-          active use.
+          active use.\n
       RUBA  Rubner conversion factors using
-          available carbohydrate
+          available carbohydrate\n
           kilocalories = (4.1 x g total
           protein) + (3.75 x g available
           carbohydrate expressed as
           monosaccharides) + (9.3 x g total
-          fat) + (7 x g alcohol)
+          fat) + (7 x g alcohol)\n
       RUBT  Rubner conversion factors using
-          total carbohydrate
+          total carbohydrate\n
           kilocalories = (4.1 x g total
           protein) + (4.1 x g total
           carbohydrate) + (9.3 x g total fat) +
@@ -658,22 +655,22 @@
           the actual conversion factors used to
           calculate the total metabolizable
           energy should be listed using the
-          following secondary tagnames:
+          following secondary tagnames:\n
       <XP>  conversion factor for
-          calculating energy from protein
+          calculating energy from protein\n
       <XCT>  conversion factor for
           calculating energy from total
-          carbohydrate
+          carbohydrate\n
       <XCA>  conversion factor for
           calculating energy from available
-          carbohydrate
+          carbohydrate\n
       <XF>  conversion factor for
-          calculating energy from fat
+          calculating energy from fat\n
       <XA>  conversion factor for
-          calculating energy from alcohol
+          calculating energy from alcohol\n
       <XO>  conversion factor for
-          calculating energy from organic acid
-      Note: If these secondary tagnames are
+          calculating energy from organic acid\n
+          Note# If these secondary tagnames are
           used, conversion factors for <XP> and
           <XF> are required; a conversion
           factor for either <XCT> or <XCA> is
@@ -694,19 +691,19 @@
           <ENERC> tagname and the USDA keyword, with
           the kilocalorie unit stated with the
           secondary tagname <UNIT/> to replace the
-          default unit of kilojoules:
+          default unit of kilojoules:\n
                <ENERC> 76 USDA <UNIT/> kcal </UNIT/>
-               </ENERC>
-
+               </ENERC>\n
+          \n
           The 272 kJ/100 g energy value for fresh,
           whole cow's milk in the McCance and
           Widdowson food table was calculated with
          the kilojoule conversion factors that use
           available carbohydrate.  Therefore, the
           energy value would be listed using the
-          <ENERC> tagname and the KJA keyword:
-               <ENERC> 272 KJA </ENERC>
-
+          <ENERC> tagname and the KJA keyword:\n
+               <ENERC> 272 KJA </ENERC>\n
+          \n
           If an energy value expressed in
           kilocalories were calculated for whole
           cow's milk using conversion factors for
@@ -718,10 +715,10 @@
           the <XP>, <XF> and <XCT> secondary
           tagnames.  The kilocalorie unit would be
           stated with the secondary tagname <UNIT/>
-          to replace the default unit of kilojoules:
+          to replace the default unit of kilojoules:\n
                <ENERC> 76.42 <XP> 4.3 <XF> 8.8 <XCT> 3.9
-               <UNIT/> kcal </UNIT/> </ENERC>
-      Note: In these examples, </UNIT/> and
+               <UNIT/> kcal </UNIT/> </ENERC>\n
+          Note# In these examples, </UNIT/> and
           </ENERC> are end-tags required in
           interchange format to indicate the end of
           the unit and energy information.  See the
@@ -736,8 +733,8 @@
           However, if expressed in
           kilocalories, kcal must be explicitly
           stated with the secondary tagname
-          <UNIT/>.
-      Note: It would be confusing and would
+          <UNIT/>.\n
+          Note# It would be confusing and would
           imply additional information that
           does not exist if two <ENER-> values,
           i.e., one expressed in kilocalories
