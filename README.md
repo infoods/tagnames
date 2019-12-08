@@ -53,4 +53,4 @@ tagnames('c4:0 stands for?');
 [INFOODS]: http://www.fao.org/infoods/infoods/en/
 [Tagnames]: https://github.com/infoods/tagnames/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in
