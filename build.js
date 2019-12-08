@@ -1,4 +1,6 @@
+const parse = require('csv-parse');
 const fs = require('fs');
+const os = require('os');
 
 
 var PARTS = 5;
@@ -96,8 +98,29 @@ function writeFullCsv() {
   }
 }
 
+// corpus.js is created from index.csv
+function writeCorpus() {
+  console.log('writing corpus');
+  var map = new Map();
+  var stream = fs.createReadStream('index.csv').pipe(parse({columns: true, comment: '#'}));
+  stream.on('data', r => {
+    for (var k in r)
+      r[k] = r[k].replace(/\\n|\r\n/g, '\n').trim();
+    map.set(r.code, r);
+  });
+  stream.on('end', () => {
+    var z = `var CORPUS = new Map([${os.EOL}`;
+    for(var [k, v] of map)
+      z += `  ["${k}", ${JSON.stringify(v).replace(/\"(\w+)\":/g, '$1:')}],${os.EOL}`;
+    z += `]);${os.EOL}`;
+    z += `module.exports = CORPUS;${os.EOL}`;
+    fs.writeFileSync('corpus.js', z);
+  });
+}
+
 function main() {
   writePartCsvs();
   writeFullCsv();
+  writeCorpus();
 }
 main();
