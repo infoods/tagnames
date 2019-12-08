@@ -19,8 +19,13 @@ function parseBlock(txt) {
   return blk;
 }
 
+function removeComments(txt) {
+  return txt.replace(/^#[^\n]*\n/gm, '');
+}
+
 function parseBlocks(txt) {
   var blks = [];
+  txt = removeComments(txt);
   var ms = [...txt.matchAll(/^<.+>|\n<\w+>/gm)];
   for (var i=0; i<ms.length; i++) {
     var bgn = ms[i].index;
@@ -33,7 +38,7 @@ function parseBlocks(txt) {
 
 
 function main() {
-  var part1 = fs.readFileSync('assets/PART1.TXT', 'utf8');
-  console.log(parseBlocks(part1));
+  var part4 = fs.readFileSync('assets/PART4.TXT', 'utf8');
+  console.log(parseBlocks(part4));
 }
 main();

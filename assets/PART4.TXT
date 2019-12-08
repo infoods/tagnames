@@ -14,8 +14,8 @@
           the quantity of total protein and the
           second is the conversion factor used to
           calculate total protein from amino
-          nitrogen.
-      Note: The total protein found in food
+          nitrogen.\n
+      Note# The total protein found in food
           tables is rarely calculated from amino
           nitrogen.  <PROCNT> is the appropriate
           tagname for total protein in most cases.
@@ -29,8 +29,8 @@
           the quantity of total protein and the
           second is the conversion factor used to
           calculate total protein from protein
-          nitrogen.
-      Note: The total protein found in food
+          nitrogen.\n
+      Note# The total protein found in food
           tables is rarely calculated from protein
           nitrogen. <PROCNT> is the appropriate
           tagname for total protein in most cases.
@@ -61,36 +61,32 @@
       Keywords: Following are the available
           keywords that can be used as the
           second value for the <PROCNT>
-          tagname:
+          tagname:\n
      JONES  conversion factor originally
-     derived by Jones (?)
-     Tables: EGP, NE, EA
+     derived by Jones (?)\n
       FAO  conversion factor from a table in
           the FAO Nutritional Studies No. 24
           (?), reprinted in the World Health
           Organization Technical Report Series
-          No. 522 (?)
-     Tables: MW, DAN
+          No. 522 (?)\n
       USDA  conversion factor from a table
           in the United States Department of
-          Agriculture Handbook No. 8 (?)
-     Tables: USDA 203
+          Agriculture Handbook No. 8 (?)\n
       STD  standard conversion factor of
           6.25, not specific for the type of
           food.  (If this keyword is used, the
           6.25 conversion factor should not be
           listed with the secondary tagname
-          <XN>.)
-     Tables: SFK, IND, PRC
-
+          <XN>.)\n
       The following secondary tagname may be
           used to identify the specific
           conversion factor used when a keyword
           other than STD is present, or instead
-          of a keyword (see above).
+          of a keyword (see above).\n
       <XN>  conversion factor for
           calculating total protein from total
           nitrogen
+     Tables: EGP, NE, EA, MW, DAN, USDA 203, SFK, IND, PRC
       Examples: The 3.2 g/100 g of protein
           in cow's milk which is listed in the
           Nutritive Value of Indian Foods was
@@ -98,9 +94,9 @@
           the 6.25 conversion factor. 
           Therefore, the protein value would be
           listed using the <PROCNT> tagname and
-          the STD keyword:
-               <PROCNT> 3.2 STD </PROCNT>
-
+          the STD keyword:\n
+               <PROCNT> 3.2 STD </PROCNT>\n
+          \n
           The 3.3 g/100 g of protein in cow's milk
           which is listed in McCance and Widdowson
           was calculated from total nitrogen using a
@@ -108,9 +104,9 @@
           obtained from the FAO publication. 
           Therefore, the protein value would be
           listed using the <PROCNT> tagname, the FAO
-          keyword, and the <XN> secondary tagname:
-               <PROCNT> 3.3 FAO <XN> 6.38 </PROCNT>
-
+          keyword, and the <XN> secondary tagname:\n
+               <PROCNT> 3.3 FAO <XN> 6.38 </PROCNT>\n
+          \n
           As a hypothetical example, if a value of
           0.3 g/100 g of protein in watermelon seeds
           were calculated from total nitrogen using
@@ -118,9 +114,9 @@
           had not been taken from one of the tables
           identified by the list of keywords, the
           protein value would be listed using the
-          <PROCNT> tagname in the following manner:
-               <PROCNT> 0.3 <XN> 5.30 </PROCNT>
-      Note: In these examples, </PROCNT> is an
+          <PROCNT> tagname in the following manner:\n
+               <PROCNT> 0.3 <XN> 5.30 </PROCNT>\n
+      Note# In these examples, </PROCNT> is an
           end-tag required in interchange format to
           indicate the end of the information about
           protein calculated from total nitrogen. 
@@ -550,8 +546,8 @@
           micrograms.  International units are
           not preferred; however, if they are
           used, IU must be explicitly stated
-          with the secondary tagname <UNIT/>.
-      Note: It would be confusing and would
+          with the secondary tagname <UNIT/>.\n
+      Note# It would be confusing and would
           imply additional information that
           does not exist if two <VITA> values,
           i.e., one expressed in mcg and the
@@ -650,8 +646,8 @@
           micrograms.  International units are
           not preferred; however, if they are
           used, IU must be explicitly stated
-          with the secondary tagname <UNIT/>.
-      Note: It would be confusing and would
+          with the secondary tagname <UNIT/>.\n
+      Note# It would be confusing and would
           imply additional information that
           does not exist if two <VITD> values,
           i.e., one expressed in mcg and the
@@ -681,8 +677,8 @@
           International units are not preferred;
           however, if they are used, IU must be
           explicitly stated with the secondary
-          tagname <UNIT/>.
-      Note: It would be confusing and would imply
+          tagname <UNIT/>.\n
+      Note# It would be confusing and would imply
           additional information that does not exist
           if two <VITD-> values, i.e., one expressed
           in mcg and the other expressed in IU, were
@@ -707,8 +703,8 @@
           International units are not preferred;
           however, if they are used, IU must be
           explicitly stated with the secondary
-          tagname <UNIT/>.
-      Note: It would be confusing and would imply
+          tagname <UNIT/>.\n
+      Note# It would be confusing and would imply
           additional information that does not exist
           if two <VITE> values, i.e., one expressed
           in mg and the other expressed in IU, were
@@ -737,57 +733,56 @@
           describing the conversion factors
           used for calculating vitamin E in
           alpha-tocopherol equivalents are
-          listed below:
+          listed below:\n
       USDA  United States Department of
           Agriculture conversion factors as
           reported by McLaughlin & Weihrauch
-          (?)
-               alpha-tocopherol = 1.00
-               beta-tocopherol = 0.40
-               gamma-tocopherol = 0.10
-               delta-tocopherol = 0.01
-               alpha-tocotrienol = 0.30
-               beta-tocotrienol = 0.05
-               gamma-tocotrienol = 0.01
-     Tables: USDA 340
+          (?)\n
+               alpha-tocopherol = 1.00\n
+               beta-tocopherol = 0.40\n
+               gamma-tocopherol = 0.10\n
+               delta-tocopherol = 0.01\n
+               alpha-tocotrienol = 0.30\n
+               beta-tocotrienol = 0.05\n
+               gamma-tocotrienol = 0.01\n
       MW  conversion factors cited by
           McCance and Widdowson (?), pages 13
           and 14.  These values are not used in
-          the vitamin E values in that table.
-               alpha-tocopherol = 1.00
-               beta-tocopherol = 0.30
-               gamma-tocopherol = 0.15
-               alpha-tocotrienol = 0.30
-     Tables: MW
+          the vitamin E values in that table.\n
+               alpha-tocopherol = 1.00\n
+               beta-tocopherol = 0.30\n
+               gamma-tocopherol = 0.15\n
+               alpha-tocotrienol = 0.30\n
       RDA  conversion factors reported in
           the ninth edition of the Recommended
           Dietary Allowances for the United
-          States (?)
-               alpha-tocopherol = 1.00
-               beta-tocopherol = 0.50
-               gamma-tocopherol = 0.10
-               alpha-tocotrienol = 0.30
-
+          States (?)\n
+               alpha-tocopherol = 1.00\n
+               beta-tocopherol = 0.50\n
+               gamma-tocopherol = 0.10\n
+               alpha-tocotrienol = 0.30\n
+               \n
       If none of the above keywords apply, the
           actual conversion factors used to
           calculate vitamin E should be listed using
-          the following secondary tagnames:
-          <XATP> alpha-tocopherol conversion factor
-          <XBTP> beta-tocopherol conversion factor
-          <XGTP> gamma-tocopherol conversion factor
-          <XDTP> delta-tocopherol conversion factor
-          <XATT> alpha-tocotrienol conversion factor
-          <XBTT> beta-tocotrienol conversion factor
+          the following secondary tagnames:\n
+          <XATP> alpha-tocopherol conversion factor\n
+          <XBTP> beta-tocopherol conversion factor\n
+          <XGTP> gamma-tocopherol conversion factor\n
+          <XDTP> delta-tocopherol conversion factor\n
+          <XATT> alpha-tocotrienol conversion factor\n
+          <XBTT> beta-tocotrienol conversion factor\n
           <XGTT> gamma-tocotrienol conversion factor
+     Tables: USDA 340, MW
       Examples: The 0.10 mg/100 g vitamin E value
           for fresh, whole cow's milk in the McCance
           and Widdowson food table represents alpha-
           tocopherol only.  Consequently, the value
           0.10 would be shown with the <TOCPHA>
           tagname, not the <VITE> tagname and the
-          associated keyword:
-               <TOCPHA> 0.10 </TOCPHA>
-
+          associated keyword:\n
+               <TOCPHA> 0.10 </TOCPHA>\n
+          \n
           If a vitamin E value of 0.12, expressed in
           alpha-tocopherol equivalents, were
           calculated for whole cow's milk from the
@@ -798,10 +793,10 @@
           the available keywords, the vitamin E
           value would be listed using the <VITE>
           tagname and the <XBTP>, <XGTP>, and <XATT>
-          secondary tagnames:
+          secondary tagnames:\n
                <VITE> 0.12 <XBTP> 0.4 <XGTP> 0.1 <XATT>
-               0.25 </VITE>
-      Note: In these examples, </VITE> and
+               0.25 </VITE>\n
+      Note# In these examples, </VITE> and
           </TOCPHA> are end-tags required in
           interchange format to indicate the end of
           the vitamin E information.  See the

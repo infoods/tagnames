@@ -1,11 +1,11 @@
-Derived Food Components
-                                               
-        
-
-When the tagnames described in this chapter are
-used in interchange files, they are all
-subsidiary to the <DRVD-COMP> element.
-
+# Derived Food Components
+#                                               
+#        
+#
+# When the tagnames described in this chapter are
+# used in interchange files, they are all
+# subsidiary to the <DRVD-COMP> element.
+#
 <AAAN>    amino acids, total aromatic; expressed
           per quantity of nitrogen
      Unit: mg/g nitrogen
@@ -215,9 +215,9 @@ subsidiary to the <DRVD-COMP> element.
       Keywords: The following keywords are
           available for identifying the animal
           in which the biological experiments
-          were conducted:
+          were conducted:\n
      MAN  experiments conducted with human
-     subjects
+     subjects\n
      RAT  experiments conducted with rats
 
 <AALC>
@@ -254,9 +254,9 @@ subsidiary to the <DRVD-COMP> element.
           recommended in 1973.  Therefore, the
           <AALC> tagname would be used to
           convey this information in the
-          following manner:
-               <AALC> LYS FAO73 </AALC>
-      Note: In this example, </AALC> is an
+          following manner:\n
+               <AALC> LYS FAO73 </AALC>\n
+      Note# In this example, </AALC> is an
           end-tag required in interchange
           format to indicate the end of the
           information about the limiting amino
@@ -345,24 +345,24 @@ subsidiary to the <DRVD-COMP> element.
           score, and an optional second keyword to
           indicate the basis of the calculation. 
           The available values of the first keyword
-          are:
+          are:\n
       EGG  egg protein, as described by Block and
-          Mitchell (?) or an equivalent method.
-      MILK  human milk protein
+          Mitchell (?) or an equivalent method.\n
+      MILK  human milk protein\n
       FAO57  reference protein pattern based
           on human amino acid requirements and
-          recommended by FAO in 1957 (?)
+          recommended by FAO in 1957 (?)\n
       FAO65  reference protein pattern based
           on egg protein and suggested by the
           Joint FAO/WHO Expert Committee on
           Energy and Protein Requirements in
-          1965 (?)
+          1965 (?)\n
       FAO73  reference protein pattern based
           on human amino acid requirements and
           suggested by the Joint FAO/WHO Expert
           Committee on Energy and Protein
-          Requirements in 1973 (?)
-      Note: Additional keywords will be
+          Requirements in 1973 (?)\n
+      Note# Additional keywords will be
           added as reference mixtures are
           defined and used in food composition
           data bases.
@@ -372,11 +372,11 @@ subsidiary to the <DRVD-COMP> element.
           protein or with respect to total
           nitrogen, this can be specified with
           an additional keyword, whose possible
-          values are:
+          values are:\n
       N  values calculated per gram of
-          nitrogen in test mixture
+          nitrogen in test mixture\n
       P  values calculated per gram of
-          protein in test mixture
+          protein in test mixture\n
      See chapter 3 of Pellett and Young (?)
      for additional discussion.
      Tables: ETH, EA
@@ -389,9 +389,9 @@ subsidiary to the <DRVD-COMP> element.
           reference protein pattern.  This
           information would be conveyed using
           the <CHEMSC> tagname in the following
-          manner:
-               <CHEMSC> 0.58 FAO73 </CHEMSC>
-      Note: In this example, </CHEMSC> is an
+          manner:\n
+               <CHEMSC> 0.58 FAO73 </CHEMSC>\n
+      Note# In this example, </CHEMSC> is an
           end-tag required in interchange
           format to indicate the end of the
           chemical score information.  See the
@@ -901,8 +901,8 @@ subsidiary to the <DRVD-COMP> element.
      Tables: NZ
 
 <F24D6F> fatty acid 24:6 n-6
-     Unit: g/100g total fatty acid
-     Note: this is a correction to 1993 version where terminal F
+     Unit: g/100g total fatty acid\n
+     Note# this is a correction to 1993 version where terminal F
      was inadvertantly omitted
 
 <FAESSF>  fatty acids, total essential;
@@ -1064,9 +1064,9 @@ subsidiary to the <DRVD-COMP> element.
           identifying the animal used to
           experimentally determine digestiblity and
           biological value.  The available keywords
-          are:
+          are:\n
      MAN  experiments conducted with human
-     subjects
+     subjects\n
      RAT  experiments conducted with rats
      Tables: USDA 267
 
@@ -1082,9 +1082,9 @@ subsidiary to the <DRVD-COMP> element.
           data items: the PER value and a keyword
           identifying the animal used to
           biologically determine this value.  The
-          available keywords are:
+          available keywords are:\n
      MAN  experiments conducted with human
-     subjects
+     subjects\n
      RAT  experiments conducted with rats fed
      10% protein
      Tables: USDA 229

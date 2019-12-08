@@ -41,8 +41,8 @@
       Comments: Sum of insoluble components from
           the AOAC total dietary fibre method;
           includes primarily lignin, cellulose, and
-          most of the hemicellulose.
-      Note: Values for <FIBINS> may also be
+          most of the hemicellulose.\n
+      Note# Values for <FIBINS> may also be
           obtained by subtracting soluble fibre from
           total dietary fibre, i.e., by subtracting
           the value of <FIBSOL> from the value of
@@ -102,8 +102,8 @@
 
 <FIB->    fibre; method of determination unknown
 	or variable
-     Unit: g
-      Note: Tagname <FIB-> is used to
+     Unit: g\n
+      Note# Tagname <FIB-> is used to
           identify fibre values which represent
           unknown fibre components or which
           were obtained by unknown methods or 
@@ -368,8 +368,8 @@
      Unit: mcg
 
 <K>  potassium
-      Unit: mg
-      Note: If the value is expressed in
+      Unit: mg\n
+      Note# If the value is expressed in
           millimoles, mmol<NA> must be
           explicitly stated with the secondary
           tagname <UNIT/>.
@@ -490,8 +490,8 @@
      Unit: g
 
 <NA> sodium
-     Unit: mg
-      Note: If the value is expressed in
+     Unit: mg\n
+      Note# If the value is expressed in
           millimoles, mmol must be explicitly stated
           with the secondary tagname <UNIT/>.
      Tables: USDA 307, SFK, MW, IND, NE, EA,
@@ -626,8 +626,8 @@ PRC, DAN, SWD
      Unit: g
       Comments: Reflects AOAC or equivalent
           procedure.  Polymers of galacturonic acid
-          unspecified.
-      Note: Additional tagnames will be added,
+          unspecified.\n
+      Note# Additional tagnames will be added,
           when needed by food composition tables and
           data bases, to reflect the very large
           number of polysaccharides present in foods
