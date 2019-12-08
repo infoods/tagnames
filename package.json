@@ -1,6 +1,6 @@
 {
   "name": "@infoods/tagnames",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "description": "Food Component Identifiers (Tagnames) by International Network of Food Data Systems (INFOODS).",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,9 @@
   "homepage": "https://github.com/infoods/tagnames#readme",
   "devDependencies": {
     "csv-parse": "^4.8.2"
+  },
+  "dependencies": {
+    "lunr": "^2.3.8",
+    "sql-extra": "^0.1.13"
   }
 }
