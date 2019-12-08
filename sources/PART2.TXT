@@ -8,7 +8,7 @@
      Unit: g
      Tables: SFK
 
-Saturated Fatty Acids
+# Saturated Fatty Acids
 <F4D0>
      fatty acid 4:0
      Unit: g
@@ -18,7 +18,7 @@ Saturated Fatty Acids
 
 <F5D0>
      fatty acid 5:0
-     unit: g
+     Unit: g
 
 <F6D0>
      fatty acid 6:0
@@ -118,15 +118,15 @@ Saturated Fatty Acids
      acid
      Tables: USDA 654, SFK, FRN
 
-Monounsaturated fatty acids
-  For mono- and poly-unsaturated fatty acids,
-the following naming conventions are used: FnDm
-indicates an unspecified bond position, and
-potentially a mixture.  FnDmNo indicates an
-omega-o bond position, potentially mixed cis
-and trans forms.  FnDmCNo and FnDmTNo indicate
-values for the specific cis and trans forms
-respectively.
+# Monounsaturated fatty acids
+#   For mono- and poly-unsaturated fatty acids,
+# the following naming conventions are used: FnDm
+# indicates an unspecified bond position, and
+# potentially a mixture.  FnDmNo indicates an
+# omega-o bond position, potentially mixed cis
+# and trans forms.  FnDmCNo and FnDmTNo indicate
+# values for the specific cis and trans forms
+# respectively.
 
 <F10D1>
      fatty acid 10:1
@@ -275,9 +275,9 @@ acid
      Synonyms: 
      Tables: USDA 671 
 
-Polyunsaturated fatty acids
-  For naming conventions, see monounsaturated
-fatty acids, above.
+# Polyunsaturated fatty acids
+#   For naming conventions, see monounsaturated
+# fatty acids, above.
 
 <F16D2N4>
      fatty acid 16:2 n-4
@@ -318,7 +318,7 @@ fatty acids, above.
 
 <F18D2N6>
      fatty acid 18:2, n-6
-     Unit g
+     Unit: g
 
 <F18D2CN6>
      fatty acid cis,cis 18:2 n-6

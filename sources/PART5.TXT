@@ -814,7 +814,7 @@
      Tables: FRN
 
 <F20D4N3F> fatty acid 20:4 n-3
-     Unit g/100g total fatty acid
+     Unit: g/100g total fatty acid
 
 <F20D4N6F>     fatty acid 20:4 n-6; expressed
                per quantity of total fatty acids
@@ -1090,7 +1090,7 @@
      Tables: USDA 229
 
 <PH> pH, hydrogen ion concentration
-     Unit none
+     Unit: none
 
 <PHEN>
      phenylalanine; expressed per quantity of
