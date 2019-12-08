@@ -1,6 +1,6 @@
 {
   "name": "@infoods/tagnames",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Food Component Identifiers (Tagnames) by International Network of Food Data Systems (INFOODS).",
   "main": "index.js",
   "scripts": {

@@ -67,8 +67,9 @@ function writeCsv(blks) {
   return s;
 }
 
-
-function main() {
+// PARTN.TXT from [sources] -> partn.csv in [assets]
+// (now that we have all the pieces of the puzzle)
+function writePartCsvs() {
   for (var n=1; n<=PARTS; n++) {
     console.log(`writing csv for part${n}`);
     var txt = fs.readFileSync(`sources/PART${n}.TXT`, 'utf8');
@@ -76,5 +77,27 @@ function main() {
     var csv = writeCsv(blks);
     fs.writeFileSync(`assets/part${n}.csv`, csv);
   }
+}
+
+// header row is not needed when merging csvs
+function removeCsvHeader(csv) {
+  return csv.substring(csv.indexOf('\n')+1);
+}
+
+// assets/partn.csv -> index.csv
+function writeFullCsv() {
+  var f = 'index.csv';
+  var s = FIELDS.join()+'\n';
+  console.log('writing full csv');
+  fs.writeFileSync(f, s);
+  for (var n=1; n<=7; n++) {
+    var csv = fs.readFileSync(`assets/part${n}.csv`, 'utf8');
+    fs.appendFileSync(f, removeCsvHeader(csv));
+  }
+}
+
+function main() {
+  writePartCsvs();
+  writeFullCsv();
 }
 main();
